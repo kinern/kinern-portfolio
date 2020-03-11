@@ -1,0 +1,16 @@
+/* Main layout styles, to be used across all pages */
+
+.layout-header {
+  background: transparent;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000, #000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+.layout-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+  background: #000;
+}

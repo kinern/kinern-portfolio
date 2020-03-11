@@ -1,0 +1,69 @@
+/* Contact Page Styles */
+
+.contact-body {
+    min-height: 100%;
+    background: #000;
+}
+
+.contact-container {
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-table {
+    max-width: 800px;
+    min-width: 400px;
+    background: #2B2226;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.contact-text {
+    min-width:300px;
+}
+
+.contact-table h1 {
+    font-family: "Roboto" sans-serif;
+    font-weight: 100;
+    color: #D3D0CB;
+}
+
+
+.contact-table p {
+    margin: 10px;
+    padding-bottom:20px;
+    color: #D3D0CB;
+}
+
+.contact-table hr {
+    color: #753335;
+    border-top: 1px solid #753335;
+}
+
+.contact-table li {
+    text-align: left;
+}
+
+.social-links {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links a {
+    font-size: 4em;
+    color: #D3D0CB;
+}
+
+.contact-table img {
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 300px;
+}
