@@ -1,6 +1,7 @@
 # React Portfolio
-My simple multi-page portfolio website built with React. 
-Will have a landing page, about page, project lists, and contact page.
+My simple multi-page portfolio website built with React.  
+Has a landing page, about page, projects page and contact page.  
+All photos on the site were taken by me.  
 
 ---
 
