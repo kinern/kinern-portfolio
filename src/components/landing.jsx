@@ -8,14 +8,9 @@ class Landing extends Component {
         return (  
 
         <div className="landing-body">
-            <video autoPlay muted loop id="myVideo">
-                <source src="/videos/jellyfish2.mp4" type="video/mp4" />
-            </video>
             <div className="landing-content">
                 <div className="circles-background">
-                    <div> </div>
-                    <h1>Websites That</h1>
-                    <h1>Stand Out</h1>
+                    <h1>Natalie Kiner</h1>
                 </div>
                 <h4>Software Engineer | Illustrator</h4>
                 <Link className="nextpage-link" to="/about"><span>About Me <i className="fa fa-arrow-right"></i></span></Link>

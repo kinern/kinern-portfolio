@@ -17,11 +17,11 @@ class Projects extends Component {
                     <Tab className="tab-button">Personal Projects</Tab>
                 </TabList>
                 <TabPanel className="tab-panel">
-                    <div className="card-intro"><h5>The following are websites that I have led and made significant contibutions to as a Full Stack Web Developer.</h5></div>
+                    <div className="card-intro"><h5>The following are websites that I have led or made significant contibutions to as a Full Stack Web Developer.</h5></div>
                     <div className="cards">
                         <div className="card" shadow={0}>
                             <div className="card-title light-card">
-                                <h2>PSP Pilot</h2>
+                                <h3>PSP Pilot</h3>
                             </div>
                             <div className="card-text">
                                 <h4>CRM For Small Businesses</h4>
@@ -38,7 +38,7 @@ class Projects extends Component {
                         </div>
                         <div className="card" shadow={0}>
                             <div className="card-title dark-card">
-                                <h2>Informakers</h2>
+                                <h3>Informakers</h3>
                             </div>
                             <div className="card-text">
                                 <div>
@@ -53,7 +53,7 @@ class Projects extends Component {
                         </div>
                         <div className="card" shadow={0}>
                             <div className="card-title light-card">
-                                <h2>Bloguru</h2>
+                                <h3>Bloguru</h3>
                             </div>
                             <div className="card-text">
                                 <div>
@@ -77,7 +77,7 @@ class Projects extends Component {
                             <div className="card-text">
                                 <div>
                                     <h4>Car Rental Website</h4>
-                                    <p>Deployed regular updates for bilingual website of car rental business located in Los Angeles.</p>
+                                    <p>Deployed updates for bilingual car rental website. Added translations, modified reservations menu and rental calendar.</p>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ class Projects extends Component {
                     <div className="cards">
                         <div className="card" shadow={0}>
                             <div className="card-title dark-card">
-                                <h2>Portfolio</h2>
+                                <h3>Portfolio</h3>
                             </div>
                             <div className="card-text">
                                 <h4>React Portfolio Website</h4>

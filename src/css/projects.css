@@ -44,7 +44,7 @@
 }
 .projects-body .card {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: #D3D0CB; /*Card text background*/
     color: #753335;
     display: flex;
@@ -110,7 +110,7 @@
     flex-wrap: nowrap;
     max-width: 340px;
     min-width: 340px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .card-title.dark-card {
