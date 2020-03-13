@@ -125,4 +125,7 @@
     .aboutme-cell, .myworks-cell {
         width:300px;
     }
+    .about-body{
+        margin-top: 50px;
+    }
 }
