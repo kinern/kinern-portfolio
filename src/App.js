@@ -18,7 +18,10 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
           </Header>
-          <Drawer className="layout-drawer" title="Navigation" style={{background: '#000', color:'#fff'}}>
+          <Drawer className="layout-drawer" title={
+          <Link to="/">Natalie Kiner</Link>
+          } 
+          style={{background: '#000', color:'#fff'}}>
             <Navigation>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>

@@ -10,8 +10,8 @@ class Contact extends Component {
         return (  
         <div className="contact-body">
             <div className="contact-container">
-            <Grid class="contact-table">
-                <Cell className="contact-text" col={6}>
+            <div class="contact-table">
+                <div className="contact-text">
                 <h1>Contact Me</h1>
                     <hr />
                     <SocialLinks />
@@ -24,9 +24,9 @@ class Contact extends Component {
                         Contact me by any of the social media links above!
                         I look forward to hearing from you.
                     </p>
-                </Cell>
-                <Cell col={6}><img src={require('../images/butterfly.jpg')} alt="Butterfly"/></Cell>
-            </Grid>
+                </div>
+                <div ><img src={require('../images/butterfly.jpg')} alt="Butterfly"/></div>
+            </div>
             </div>
             <Footer />
         </div> 

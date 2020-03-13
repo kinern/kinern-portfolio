@@ -76,3 +76,16 @@
     text-shadow: 2px 2px #2B2226;
     margin-right: 100px;
 }
+
+@media only screen and (max-width: 800px){
+    .circles-background h1 {
+        font-size: 4em;
+    }
+    .landing-content h4 {
+        margin-right: 0px;
+    }
+    .landing-content {
+        align-items: center;
+        justify-content: center;
+    }
+}

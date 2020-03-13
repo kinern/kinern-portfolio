@@ -26,6 +26,7 @@ body {
 }
 
 .layout-drawer a {
+  text-decoration: none;
   font-family: "Roboto" sans-serif;
-  color: #753335
+  color: #fff;
 }

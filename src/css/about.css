@@ -104,3 +104,9 @@
 .color-block-right {
     float: right;
 }
+
+@media only screen and (max-width: 600px) {
+    .aboutme-cell, .myworks-cell {
+        width:300px;
+    }
+}
