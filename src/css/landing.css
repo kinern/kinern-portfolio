@@ -30,18 +30,27 @@
 }
 
 .landing-body .nextpage-link {
-    font-size: 2em;
-    color: #D3D0CB;
-    text-decoration: none;
     background: #2B2226;
-    text-shadow: 2px 2px #000;
-    opacity: 0.8;
     padding: 5px;
     width: 100%;
     margin-top:20px;
+    align-self: flex-end;
+    width:435px;
+    margin-right:10px;
+}
+
+.landing-body .nextpage-link a {
+    font-size: 2em;
     font-family: "Roboto" sans-serif;
     font-weight: 100; 
-    text-align: right;
+    color: #757575;
+    text-shadow: 2px 2px #000;
+    text-decoration: none;
+    margin-right:10px;
+}
+
+.landing-body .nextpage-link a:hover {
+    color: #D3D0CB;
 }
 
 .circles-background h1 {
@@ -68,18 +77,24 @@
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: flex-end;
 }
 
 .landing-content h4 {
     color: #753335;
     text-shadow: 2px 2px #2B2226;
-    margin-right: 100px;
+    align-self: center;
 }
 
 @media only screen and (max-width: 800px){
+    .circles-background {
+        align-items: center;
+        justify-content: center;
+    }
     .circles-background h1 {
-        font-size: 4em;
+        font-size: 4.2em;
+        margin: 10px;
+        padding: 0px;
     }
     .landing-content h4 {
         margin-right: 0px;
@@ -87,5 +102,9 @@
     .landing-content {
         align-items: center;
         justify-content: center;
+    }
+    .landing-body .nextpage-link {
+        text-align: center;
+        align-self: center;
     }
 }

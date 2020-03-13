@@ -151,19 +151,6 @@
     text-shadow: 2px 0px #2B2226;
 }
 
-
-
-.projects-body .nextpage-container {
-    margin-top: 50x;
-    margin-bottom:50px;
-}
-
-.projects-body .nextpage-container a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
 .card-intro {
     padding-bottom: 20px;
 }
@@ -173,8 +160,22 @@
     font-weight: 100;
 }
 
+
+.projects-body .nextpage-container {
+    margin-top: 50x;
+    margin-bottom:50px;
+}
+
 .nextpage-container a {
     font-weight:100;
+    color: #757575;
+    text-shadow: 2px 0px #2B2226;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nextpage-container a:hover {
+    color: #fff;
 }
 
 

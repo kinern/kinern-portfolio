@@ -77,11 +77,16 @@
 }
 
 .about-body .nextpage-link {
-    color: #fff;
+    color: #757575;
     font-size: 1.5em;
     text-decoration: none;
     font-family: "Roboto" sans-serif;
     font-weight: 100;
+    text-shadow: 2px 0px #2B2226;
+}
+
+.about-body .nextpage-link:hover {
+    color: #fff;
 }
 
 .about-body h4 {

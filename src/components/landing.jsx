@@ -13,7 +13,11 @@ class Landing extends Component {
                     <h1>Natalie Kiner</h1>
                 </div>
                 <h4>Software Engineer | Illustrator</h4>
-                <Link className="nextpage-link" to="/about"><span>About Me <i className="fa fa-arrow-right"></i></span></Link>
+                <div className="nextpage-link">
+                    <Link  to="/about">
+                        <span>About Me <i className="fa fa-arrow-right"></i></span>
+                    </Link>
+                </div>
             </div>
 
         </div> );
