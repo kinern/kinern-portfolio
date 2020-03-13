@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kinern-portfolio/precache-manifest.9c1d03e11a0d813495d357473b8693e0.js"
+  "/kinern-portfolio/precache-manifest.6398aa4698567589e6c5116dedf18ac8.js"
 );
 
 self.addEventListener('message', (event) => {
