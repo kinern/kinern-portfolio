@@ -8,11 +8,12 @@ class About extends Component {
     render() { 
         return (  
         <div className="about-body">
-            <table className="about-table">
-                <tbody>
-                <tr className="about-row">
-                    <td col={6} className="aboutme-img"><img src ={require('../images/lion-dog-statue.jpg')} alt="Statue" /></td>
-                    <td col={6} className="aboutme-cell">
+            <div className="about-table">
+                <div className="about-row">
+                    <div className="aboutme-img">
+                        <img src ={require('../images/lion-dog-statue.jpg')} alt="Statue" />
+                    </div>
+                    <div className="aboutme-cell">
                         <h4>About Me</h4>
                         <hr />
                         <p>
@@ -23,10 +24,10 @@ class About extends Component {
                             My interests include programming, art, reading, and learning different languages.
                         </p>
                         <div className="color-block-right" />
-                    </td>
-                </tr>
-                <tr className="about-row">
-                    <td col={6} className="myworks-cell">
+                    </div>
+                </div>
+                <div className="myworks-row">
+                    <div className="myworks-cell">
                         <h4>My Works</h4>
                         <hr />
                         <p>
@@ -35,11 +36,12 @@ class About extends Component {
                             Drawing is my other creative outlet, including watercolors, ink and colored pencil works.
                         </p>
                         <div className="color-block-left" />
-                        </td>
-                    <td col={6} className="myworks-img"><img src={require('../images/frog.jpg')} alt="Frog"/></td>
-                </tr>
-                </tbody>
-            </table> 
+                    </div>
+                    <div className="myworks-img">
+                        <img src={require('../images/frog.jpg')} alt="Frog"/>
+                    </div>
+                </div>
+            </div> 
             <div className="nextpage-container">
                 <Link className="nextpage-link" to="/projects">See My Projects <span><i className="fa fa-arrow-right"></i></span></Link>
             </div>

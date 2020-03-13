@@ -1,13 +1,15 @@
 /* Projects Page Styles */
 
+
+
+
+/* Normal Styles */
+
 .projects-body {
     height:100%;
     background-color: #000;
     color: #D3D0CB;
     border-top: solid #000 1px;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
 }
 .projects-body h1, .projects-body h2, .projects-body h3{
     font-family: "Roboto", sans-serif;
@@ -25,32 +27,15 @@
     padding: 0px;
 }
 
-.projects-body .cards {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: right;
 
-}
 
-.projects-body .cards {
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: right;
-    flex-wrap: nowrap;
-
-}
 .projects-body .card {
-    width: 100%;
-    height: 150px;
-    background: #D3D0CB; /*Card text background*/
+    background-color: #D3D0CB; /*Card text background*/
     color: #753335;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 
 }
 
@@ -65,9 +50,9 @@
 }
 
 .projects-body .card-title {
-    height:100%;
-    min-width: 340px;
-    max-width: 340px;
+    height:150px;
+    min-width:340px;
+    width: 340px;
     background: #753335; /* Card title default color */
     color: #D3D0CB;
     display:flex;
@@ -83,7 +68,6 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: stretch;
-    background: #fff;
 }
 
 .cards .border-left {
@@ -108,8 +92,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    max-width: 340px;
-    min-width: 340px;
+    width:340px;
     margin-right: 100px;
 }
 
@@ -117,9 +100,11 @@
     background: #2B2226;
 }
 
-.projects-body .cards>div:nth-of-type(odd) {
-    background: #e0e0e0;
+.card-text{
+    height:150px;
+    background: #D3D0CB;
 }
+
 
 
 .projects-tabs {
@@ -166,3 +151,39 @@
     color: #D3D0CB;
     font-weight: 100;
 }
+
+/* Small Screen Styles */
+@media only screen and (max-width: 640px) {
+    .projects-body .card {
+        background-color: #000;
+        justify-content: center;
+        align-content:center;
+        align-items:center;
+        align-self:center;
+        flex-wrap:wrap;
+    }
+    .cards .border-right {
+       display:none;
+    }
+    .cards .border {
+        align-items:center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .projects-body .cards{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        justify-items:center;
+        align-content: center;
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+    .projects-body .card-text {
+        margin:0;
+        padding:0;
+    }
+
+  }
