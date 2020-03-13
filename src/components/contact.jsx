@@ -12,17 +12,18 @@ class Contact extends Component {
             <div class="contact-table">
                 <div className="contact-text">
                 <h1>Contact Me</h1>
-                    <hr />
-                    <SocialLinks />
+                    <div className="red-color-bar" />
                     <p>
                         <ul >
                             <li>Do you have questions?</li>
                             <li>Want me on your project?</li>
                             <li>Have you spotted a bug on this site?</li> 
                         </ul>
-                        Contact me by any of the social media links above!
+                        Contact me by any of the social media links below!
                         I look forward to hearing from you.
                     </p>
+                    <SocialLinks />
+                    <div className="red-color-bar bottom" />
                 </div>
                 <div ><img src={require('../images/butterfly.jpg')} alt="Butterfly"/></div>
             </div>

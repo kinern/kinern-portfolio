@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Layout>
           <Header className="layout-header" title={
-          <span><strong><Link to="/">Natalie Kiner</Link></strong></span>
+          <span><strong> </strong></span>
           }>
           <Navigation className="topbar-links">
             <Link to="/about">About</Link>
@@ -20,13 +20,14 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
           </Header>
-          <Drawer className="layout-drawer" style={{background: '#000', color:'#fff'}}>
-            <Navigation className="drawer-navigation">
-              <Link style={{background: '#000', color:'#fff'}} to="/">Natalie Kiner</Link>
+          <Drawer className="layout-drawer" style={{background: '#3C6E71'}}>
+            <div className="drawer-navigation">
+              <Link className="drawer-title" to="/">Natalie Kiner</Link>
+              <div className="nav-color-bar" />
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
-            </Navigation>
+            </div>
             <SocialLinks />
           </Drawer>
           <Content className="content">

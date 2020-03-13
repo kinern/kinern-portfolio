@@ -30,7 +30,7 @@
 }
 
 .landing-body .nextpage-link {
-    background: #2B2226;
+    background: #3C6E71;
     padding: 5px;
     width: 100%;
     margin-top:20px;
@@ -43,21 +43,21 @@
     font-size: 2em;
     font-family: "Roboto" sans-serif;
     font-weight: 100; 
-    color: #757575;
-    text-shadow: 2px 2px #000;
+    color: #D3D0CB;
+    text-shadow: 0px 0px #000;
     text-decoration: none;
     margin-right:10px;
 }
 
 .landing-body .nextpage-link a:hover {
-    color: #D3D0CB;
+    color: #fff;
 }
 
 .circles-background h1 {
     font-size: 6em;
     font-family: "Roboto" sans-serif;
     color: #D3D0CB;
-    text-shadow: 4px 0px #753335;
+    text-shadow: 4px 0px #3C6E71;
     white-space: nowrap;
     margin:0;
     margin-top: 20px;
@@ -81,8 +81,8 @@
 }
 
 .landing-content h4 {
-    color: #753335;
-    text-shadow: 2px 2px #2B2226;
+    color: #D3D0CB;
+    text-shadow: 1px 0px #3C6E71;
     align-self: center;
 }
 

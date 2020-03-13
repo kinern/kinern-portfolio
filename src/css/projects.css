@@ -10,6 +10,10 @@
     background-color: #000;
     color: #D3D0CB;
     border-top: solid #000 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
 }
 .projects-body h1, .projects-body h2, .projects-body h3{
     font-family: "Roboto", sans-serif;
@@ -19,6 +23,7 @@
 .projects-body h4 {
     margin:0;
     padding:0;
+    text-shadow: 1px 0px #757575;
 }
 
 .projects-body li, .projects-body ul {
@@ -55,6 +60,7 @@
     width: 340px;
     background: #753335; /* Card title default color */
     color: #D3D0CB;
+    text-shadow: 2px 0px #000;
     display:flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -164,12 +170,15 @@
 .projects-body .nextpage-container {
     margin-top: 50x;
     margin-bottom:50px;
+    padding: 10px;
+    width: 400px;
+    align-self: center;
+    background: #3C6E71;
 }
 
 .nextpage-container a {
     font-weight:100;
-    color: #757575;
-    text-shadow: 2px 0px #2B2226;
+    color: #D3D0CB;
     text-decoration: none;
     font-size: 1.5em;
 }
