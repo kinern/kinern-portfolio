@@ -14,6 +14,7 @@ const Routing = () => (
         <CSSTransition timeout={{ enter: 300, exit: 300 }} classNames={'fade'}>
             < Switch >
                 <Route exact path="/" component={ Landing } />
+                <Route path="/kinern-portfolio" component={ Landing } />
                 <Route path="/about" component={ About } />
                 <Route path="/projects" component={ Projects } />
                 <Route path="/contact" component={ Contact } />

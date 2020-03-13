@@ -25,7 +25,7 @@ class Contact extends Component {
                         I look forward to hearing from you.
                     </p>
                 </Cell>
-                <Cell col={6}><img src="images/butterfly.jpg" alt="Butterfly"/></Cell>
+                <Cell col={6}><img src={require('../images/butterfly.jpg')} alt="Butterfly"/></Cell>
             </Grid>
             </div>
             <Footer />

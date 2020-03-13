@@ -9,8 +9,9 @@ class About extends Component {
         return (  
         <div className="about-body">
             <table className="about-table">
+                <tbody>
                 <tr className="about-row">
-                    <td col={6} className="aboutme-img"><img src ="images/lion-dog-statue.jpg" alt="Statue" /></td>
+                    <td col={6} className="aboutme-img"><img src ={require('../images/lion-dog-statue.jpg')} alt="Statue" /></td>
                     <td col={6} className="aboutme-cell">
                         <h4>About Me</h4>
                         <hr />
@@ -35,10 +36,11 @@ class About extends Component {
                         </p>
                         <div className="color-block-left" />
                         </td>
-                    <td col={6} className="myworks-img"><img src="images/frog.jpg" alt="Frog"/></td>
+                    <td col={6} className="myworks-img"><img src={require('../images/frog.jpg')} alt="Frog"/></td>
                 </tr>
+                </tbody>
             </table> 
-            <div class="nextpage-container">
+            <div className="nextpage-container">
                 <Link className="nextpage-link" to="/projects">See My Projects <span><i className="fa fa-arrow-right"></i></span></Link>
             </div>
             <Footer />

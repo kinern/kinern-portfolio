@@ -8,9 +8,6 @@ class Projects extends Component {
     render() { 
         return ( 
         <div className="projects-body">
-            <div>
-                <h1></h1>
-            </div>
             <Tabs className="projects-tabs">
                 <TabList className="projects-tablist">
                     <Tab className="tab-button">Professional Works</Tab>
