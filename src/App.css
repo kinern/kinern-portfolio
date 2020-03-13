@@ -91,3 +91,19 @@
   margin-right: 20px;
   padding: 0px;
 }
+
+.layout-drawer {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100%;
+}
+
+.layout-drawer .social-links {
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.layout-drawer .social-links a {
+  font-size: 2em;
+}

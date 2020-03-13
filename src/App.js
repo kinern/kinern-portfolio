@@ -4,6 +4,8 @@ import './css/layout.css';
 import Routing from './components/routing';
 import { Layout, Navigation, Header, Content, Drawer } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import SocialLinks from './components/sociallinks';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 function App() {
   return (
@@ -18,15 +20,14 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
           </Header>
-          <Drawer className="layout-drawer" title={
-          <Link to="/">Natalie Kiner</Link>
-          } 
-          style={{background: '#000', color:'#fff'}}>
-            <Navigation>
+          <Drawer className="layout-drawer" style={{background: '#000', color:'#fff'}}>
+            <Navigation className="drawer-navigation">
+              <Link style={{background: '#000', color:'#fff'}} to="/">Natalie Kiner</Link>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
+            <SocialLinks />
           </Drawer>
           <Content className="content">
             <Routing className="routing-body"/>

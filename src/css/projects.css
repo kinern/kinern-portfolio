@@ -59,6 +59,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     font-size: 2em;
+    text-align: right;
 }
 
 
@@ -88,23 +89,26 @@
 }
 
 .card-text {
+    width:340px;
+    margin-right: 100px;
+    height:150px;
+    background: #D3D0CB;
+    text-align:right;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
-    width:340px;
-    margin-right: 100px;
+    align-items: flex-end;
+    flex-wrap:nowrap;
 }
 
 .card-title.dark-card {
     background: #2B2226;
 }
 
-.card-text{
-    height:150px;
-    background: #D3D0CB;
+.card.dark-card .card-text, .card.dark-card {
+    background: #b3aea6;
+    color: #2B2226;
 }
-
 
 
 .projects-tabs {
@@ -112,7 +116,6 @@
     height:100%;
     margin-bottom: 50px;
 }
-
 
 .projects-tablist {
     display:flex;
@@ -122,14 +125,32 @@
     justify-content: center;
     flex-wrap: wrap;
     width:100%;
-    border-bottom: solid #753335 1px;
+    border-bottom: 2px solid #753335;
 }
 
 .projects-tabs .tab-button {
     font-size: 1.5em;
     margin:20px;
     margin-bottom: 0;
+    cursor:pointer;
+    padding:10px 30px 10px 30px;
+    border-radius: 3px 3px 0px 0px;
+    background: #2B2226;
+    color: #757575;
+    text-shadow: 2px 0px #000;
 }
+
+.projects-tabs .tab-button:not(.selected-tab):hover {
+    color: #fff;
+    background: #757575;
+}
+
+.projects-tabs .selected-tab {
+    color: #fff;
+    background: #753335;
+    text-shadow: 2px 0px #2B2226;
+}
+
 
 
 .projects-body .nextpage-container {
@@ -152,6 +173,11 @@
     font-weight: 100;
 }
 
+.nextpage-container a {
+    font-weight:100;
+}
+
+
 /* Small Screen Styles */
 @media only screen and (max-width: 640px) {
     .projects-body .card {
@@ -165,6 +191,10 @@
     .cards .border-right {
        display:none;
     }
+    .cards .border-left {
+        background:#000;
+        height: 20px;
+     }
     .cards .border {
         align-items:center;
         justify-content: center;
@@ -184,6 +214,21 @@
     .projects-body .card-text {
         margin:0;
         padding:0;
+        text-align: center;
+        align-items: center;
+
+    }
+    .projects-body .card-title {
+        text-align: center;
+    }
+    .projects-tabs .selected-tab, .projects-tabs .tab-button {
+        border-radius: 3px;
+        width:250px;
+        text-align:center;
+    }
+    .projects-tablist {
+        border-bottom: none;
+        margin-bottom: 50px;
     }
 
   }

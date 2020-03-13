@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 import SocialLinks from './sociallinks';
 import '../css/contact.css';
 import Footer from './footer';

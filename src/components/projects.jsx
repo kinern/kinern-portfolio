@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import {Tabs, TabList, Tab, TabPanel} from 'react-tabs';
+import { Link } from 'react-router-dom';
 import '../css/projects.css';
 import Footer from './footer';
 import ProjectCard from './projectcard';
+
 
 class Projects extends Component {
     state = {  }
     render() { 
         return ( 
         <div className="projects-body">
-            <Tabs className="projects-tabs">
+            <Tabs className="projects-tabs" selectedTabClassName="selected-tab" selectedTabPanelClassName="selected-panel">
                 <TabList className="projects-tablist">
                     <Tab className="tab-button">Professional Works</Tab>
                     <Tab className="tab-button">Personal Projects</Tab>
@@ -35,7 +37,7 @@ class Projects extends Component {
                         <ProjectCard
                         cardColor={'dark-card'}
                         projectTitle={"Informakers"}
-                        projectHeadline={'Versatile Survey Generating App'}
+                        projectHeadline={'Versatile Survey App'}
                         projectDescription={<div>
                                 <p>Added new features for forms and members portal pages.</p>
                             </div>
@@ -100,6 +102,9 @@ class Projects extends Component {
                     </div>
                 </TabPanel>
             </Tabs>
+            <div className="nextpage-container">
+                <Link className="nextpage-link" to="/contact">Contact Me <span><i className="fa fa-arrow-right"></i></span></Link>
+            </div>
             <Footer />
         </div> 
         );

@@ -3,7 +3,7 @@ class ProjectCard extends Component {
     state = {  }
     render() { 
         return (                         
-        <div className="card">
+        <div className={`card ${ this.props.cardColor }`}>
             <div className={`card-title ${ this.props.cardColor }`}>
                 <h3>{this.props.projectTitle}</h3>
             </div>
