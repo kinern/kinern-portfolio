@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kinern-portfolio/static/css/main.5275dacb.chunk.css",
+    "main.js": "/kinern-portfolio/static/js/main.e49eb7d8.chunk.js",
+    "main.js.map": "/kinern-portfolio/static/js/main.e49eb7d8.chunk.js.map",
+    "runtime-main.js": "/kinern-portfolio/static/js/runtime-main.69768d43.js",
+    "runtime-main.js.map": "/kinern-portfolio/static/js/runtime-main.69768d43.js.map",
+    "static/css/2.e4346227.chunk.css": "/kinern-portfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.1f2df99d.chunk.js": "/kinern-portfolio/static/js/2.1f2df99d.chunk.js",
+    "static/js/2.1f2df99d.chunk.js.map": "/kinern-portfolio/static/js/2.1f2df99d.chunk.js.map",
+    "index.html": "/kinern-portfolio/index.html",
+    "precache-manifest.472ee1e187f0bd85bd60aa5d6a64e648.js": "/kinern-portfolio/precache-manifest.472ee1e187f0bd85bd60aa5d6a64e648.js",
+    "service-worker.js": "/kinern-portfolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/kinern-portfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.5275dacb.chunk.css.map": "/kinern-portfolio/static/css/main.5275dacb.chunk.css.map",
+    "static/js/2.1f2df99d.chunk.js.LICENSE.txt": "/kinern-portfolio/static/js/2.1f2df99d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69768d43.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.1f2df99d.chunk.js",
+    "static/css/main.5275dacb.chunk.css",
+    "static/js/main.e49eb7d8.chunk.js"
+  ]
+}
