@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/kinern-portfolio/static/css/main.de0e8cfd.chunk.css",
-    "main.js": "/kinern-portfolio/static/js/main.68d9472c.chunk.js",
-    "main.js.map": "/kinern-portfolio/static/js/main.68d9472c.chunk.js.map",
+    "main.css": "/kinern-portfolio/static/css/main.793288c2.chunk.css",
+    "main.js": "/kinern-portfolio/static/js/main.0999f6f1.chunk.js",
+    "main.js.map": "/kinern-portfolio/static/js/main.0999f6f1.chunk.js.map",
     "runtime-main.js": "/kinern-portfolio/static/js/runtime-main.69768d43.js",
     "runtime-main.js.map": "/kinern-portfolio/static/js/runtime-main.69768d43.js.map",
     "static/css/2.2bc3d380.chunk.css": "/kinern-portfolio/static/css/2.2bc3d380.chunk.css",
-    "static/js/2.da9d6f73.chunk.js": "/kinern-portfolio/static/js/2.da9d6f73.chunk.js",
-    "static/js/2.da9d6f73.chunk.js.map": "/kinern-portfolio/static/js/2.da9d6f73.chunk.js.map",
+    "static/js/2.bafa0da9.chunk.js": "/kinern-portfolio/static/js/2.bafa0da9.chunk.js",
+    "static/js/2.bafa0da9.chunk.js.map": "/kinern-portfolio/static/js/2.bafa0da9.chunk.js.map",
     "index.html": "/kinern-portfolio/index.html",
-    "precache-manifest.6398aa4698567589e6c5116dedf18ac8.js": "/kinern-portfolio/precache-manifest.6398aa4698567589e6c5116dedf18ac8.js",
+    "precache-manifest.c128453606c21b62e6df6e70d6a9fa40.js": "/kinern-portfolio/precache-manifest.c128453606c21b62e6df6e70d6a9fa40.js",
     "service-worker.js": "/kinern-portfolio/service-worker.js",
     "static/css/2.2bc3d380.chunk.css.map": "/kinern-portfolio/static/css/2.2bc3d380.chunk.css.map",
-    "static/css/main.de0e8cfd.chunk.css.map": "/kinern-portfolio/static/css/main.de0e8cfd.chunk.css.map",
-    "static/js/2.da9d6f73.chunk.js.LICENSE.txt": "/kinern-portfolio/static/js/2.da9d6f73.chunk.js.LICENSE.txt",
+    "static/css/main.793288c2.chunk.css.map": "/kinern-portfolio/static/css/main.793288c2.chunk.css.map",
+    "static/js/2.bafa0da9.chunk.js.LICENSE.txt": "/kinern-portfolio/static/js/2.bafa0da9.chunk.js.LICENSE.txt",
     "static/media/butterfly.jpg": "/kinern-portfolio/static/media/butterfly.450eb05c.jpg",
     "static/media/font-awesome.min.css": "/kinern-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/frog.jpg": "/kinern-portfolio/static/media/frog.b1f57602.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.69768d43.js",
     "static/css/2.2bc3d380.chunk.css",
-    "static/js/2.da9d6f73.chunk.js",
-    "static/css/main.de0e8cfd.chunk.css",
-    "static/js/main.68d9472c.chunk.js"
+    "static/js/2.bafa0da9.chunk.js",
+    "static/css/main.793288c2.chunk.css",
+    "static/js/main.0999f6f1.chunk.js"
   ]
 }
