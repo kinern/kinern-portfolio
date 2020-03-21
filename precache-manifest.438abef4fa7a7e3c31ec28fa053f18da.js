@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc57ec5d18b7cb9605f5e538b1a46b9f",
+    "revision": "e088a3719cd28832c9855543ff32fe95",
     "url": "/kinern-portfolio/index.html"
   },
   {
-    "revision": "bc5053dedf017165f998",
+    "revision": "cbbda8a96a7e3c24cace",
     "url": "/kinern-portfolio/static/css/2.2bc3d380.chunk.css"
   },
   {
-    "revision": "8e0d0d7f38daaaa39125",
+    "revision": "c2265dabad6b5dc64a8e",
     "url": "/kinern-portfolio/static/css/main.3e3931a3.chunk.css"
   },
   {
-    "revision": "bc5053dedf017165f998",
-    "url": "/kinern-portfolio/static/js/2.bafa0da9.chunk.js"
+    "revision": "cbbda8a96a7e3c24cace",
+    "url": "/kinern-portfolio/static/js/2.85540765.chunk.js"
   },
   {
     "revision": "a1e12f97867665430e5c8e39fc9f180a",
-    "url": "/kinern-portfolio/static/js/2.bafa0da9.chunk.js.LICENSE.txt"
+    "url": "/kinern-portfolio/static/js/2.85540765.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e0d0d7f38daaaa39125",
-    "url": "/kinern-portfolio/static/js/main.0999f6f1.chunk.js"
+    "revision": "c2265dabad6b5dc64a8e",
+    "url": "/kinern-portfolio/static/js/main.f3250711.chunk.js"
   },
   {
     "revision": "74b615b652a8c0168327",
