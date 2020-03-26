@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/kinern-portfolio/static/css/main.3e3931a3.chunk.css",
-    "main.js": "/kinern-portfolio/static/js/main.f3250711.chunk.js",
-    "main.js.map": "/kinern-portfolio/static/js/main.f3250711.chunk.js.map",
-    "runtime-main.js": "/kinern-portfolio/static/js/runtime-main.69768d43.js",
-    "runtime-main.js.map": "/kinern-portfolio/static/js/runtime-main.69768d43.js.map",
-    "static/css/2.2bc3d380.chunk.css": "/kinern-portfolio/static/css/2.2bc3d380.chunk.css",
-    "static/js/2.85540765.chunk.js": "/kinern-portfolio/static/js/2.85540765.chunk.js",
-    "static/js/2.85540765.chunk.js.map": "/kinern-portfolio/static/js/2.85540765.chunk.js.map",
-    "index.html": "/kinern-portfolio/index.html",
-    "precache-manifest.438abef4fa7a7e3c31ec28fa053f18da.js": "/kinern-portfolio/precache-manifest.438abef4fa7a7e3c31ec28fa053f18da.js",
-    "service-worker.js": "/kinern-portfolio/service-worker.js",
-    "static/css/2.2bc3d380.chunk.css.map": "/kinern-portfolio/static/css/2.2bc3d380.chunk.css.map",
-    "static/css/main.3e3931a3.chunk.css.map": "/kinern-portfolio/static/css/main.3e3931a3.chunk.css.map",
-    "static/js/2.85540765.chunk.js.LICENSE.txt": "/kinern-portfolio/static/js/2.85540765.chunk.js.LICENSE.txt",
-    "static/media/butterfly.jpg": "/kinern-portfolio/static/media/butterfly.450eb05c.jpg",
-    "static/media/font-awesome.min.css": "/kinern-portfolio/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/frog.jpg": "/kinern-portfolio/static/media/frog.b1f57602.jpg",
-    "static/media/lion-dog-statue.jpg": "/kinern-portfolio/static/media/lion-dog-statue.9b2ba885.jpg"
+    "main.css": "/static/css/main.3e3931a3.chunk.css",
+    "main.js": "/static/js/main.02445919.chunk.js",
+    "main.js.map": "/static/js/main.02445919.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2c1d8231.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2c1d8231.js.map",
+    "static/css/2.ac5cd1e0.chunk.css": "/static/css/2.ac5cd1e0.chunk.css",
+    "static/js/2.85540765.chunk.js": "/static/js/2.85540765.chunk.js",
+    "static/js/2.85540765.chunk.js.map": "/static/js/2.85540765.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.364d326a9913d0feafa8b4eb77962711.js": "/precache-manifest.364d326a9913d0feafa8b4eb77962711.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ac5cd1e0.chunk.css.map": "/static/css/2.ac5cd1e0.chunk.css.map",
+    "static/css/main.3e3931a3.chunk.css.map": "/static/css/main.3e3931a3.chunk.css.map",
+    "static/js/2.85540765.chunk.js.LICENSE.txt": "/static/js/2.85540765.chunk.js.LICENSE.txt",
+    "static/media/butterfly.jpg": "/static/media/butterfly.450eb05c.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/frog.jpg": "/static/media/frog.b1f57602.jpg",
+    "static/media/lion-dog-statue.jpg": "/static/media/lion-dog-statue.9b2ba885.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69768d43.js",
-    "static/css/2.2bc3d380.chunk.css",
+    "static/js/runtime-main.2c1d8231.js",
+    "static/css/2.ac5cd1e0.chunk.css",
     "static/js/2.85540765.chunk.js",
     "static/css/main.3e3931a3.chunk.css",
-    "static/js/main.f3250711.chunk.js"
+    "static/js/main.02445919.chunk.js"
   ]
 }
