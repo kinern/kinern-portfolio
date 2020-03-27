@@ -24,9 +24,11 @@ function App() {
             <div className="drawer-navigation">
               <Link className="drawer-title" to="/">Natalie Kiner</Link>
               <div className="nav-color-bar" />
-              <Link to="/about">About</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <div className="drawer-links-list">
+                <Link to="/about"><i className="fa fa-user"></i><span>About</span></Link>
+                <Link to="/projects"><i className="fa fa-laptop"></i><span>Projects</span></Link>
+                <Link to="/contact"><i className="fa fa-paper-plane"></i><span>Contact</span></Link>
+              </div>
             </div>
             <SocialLinks />
           </Drawer>

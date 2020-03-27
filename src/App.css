@@ -107,3 +107,7 @@
 .layout-drawer .social-links a {
   font-size: 2em;
 }
+
+.mdl-layout__header {
+  box-shadow: none !important;
+}

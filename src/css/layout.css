@@ -2,9 +2,10 @@
 
 .layout-header {
   background: transparent;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000, #000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #171010, #171010);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #171010, #171010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
+  border: none;
 }
 .layout-header a {
     color: #fff;
@@ -12,7 +13,7 @@
 }
 
 body {
-  background: #000;
+  background: #171010;
 }
 
 .mdl-layout__drawer-button {
@@ -47,17 +48,43 @@ body {
   font-size: 2em;
   padding: 0;
   margin-bottom: -10px;
+  margin-top: 30px;
+  flex-grow: 0.5;
 }
 
 .nav-color-bar {
   width: 150px;
-  height: 5px;
+  height: 2px;
   background: #8AEA92;
   margin: 0 !important;
   padding: 0 !important;
   align-self: center;
+  justify-self: flex-start;
 }
 
 .nav-color-bar:hover {
   background: #8AEA92 !important;
+}
+
+.drawer-links-list {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-grow: 3;
+  text-align:left;
+}
+.drawer-links-list a {
+ margin-top: 30px;
+ width: 120px;
+}
+
+.drawer-links-list a i {
+  background: #fff;
+  padding:10px;
+  border-radius: 50%;
+  width: 12px;
+  text-align:center;
+  margin-right: 15px;
 }

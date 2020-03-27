@@ -7,9 +7,9 @@
 
 .projects-body {
     height:100%;
-    background-color: #000;
+    background-color: #171010;
     color: #D3D0CB;
-    border-top: solid #000 1px;
+    border-top: solid #171010 1px;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -144,6 +144,7 @@
     background: #2B2226;
     color: #757575;
     text-shadow: 2px 0px #000;
+    box-shadow: 0px -1px 2px 0px #000;
 }
 
 .projects-tabs .tab-button:not(.selected-tab):hover {
@@ -174,6 +175,7 @@
     width: 400px;
     align-self: center;
     background: #3C6E71;
+    box-shadow: 0px 5px 0px 0px #000;
 }
 
 .nextpage-container a {
@@ -191,7 +193,7 @@
 /* Small Screen Styles */
 @media only screen and (max-width: 640px) {
     .projects-body .card {
-        background-color: #000;
+        background-color: #171010;
         justify-content: center;
         align-content:center;
         align-items:center;
@@ -202,8 +204,8 @@
        display:none;
     }
     .cards .border-left {
-        background:#000;
-        height: 20px;
+        background:#171010;
+        height: 30px;
      }
     .cards .border {
         align-items:center;
@@ -226,15 +228,19 @@
         padding:0;
         text-align: center;
         align-items: center;
+        box-shadow: 0px 5px 0px 0px #000;
 
     }
     .projects-body .card-title {
+        box-shadow: 0px 0px 5px 0px #000;
         text-align: center;
+        height:80px;
     }
     .projects-tabs .selected-tab, .projects-tabs .tab-button {
         border-radius: 3px;
         width:250px;
         text-align:center;
+        box-shadow: 0px 5px 5px 0px #000;
     }
     .projects-tablist {
         border-bottom: none;

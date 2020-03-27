@@ -2,12 +2,11 @@
 
 .contact-body {
     min-height: 100%;
-    background: #000;
+    background: #171010;
 }
 
 .contact-container {
     min-height:100%;
-    margin-top:80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +24,7 @@
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 0px 5px 5px 0px #000;
 }
 
 .contact-text {
@@ -86,6 +86,7 @@
     align-self: center;
     width: 400px;
     min-width: 300px;
+    
 }
 
 .red-color-bar {
@@ -99,7 +100,7 @@
     margin-bottom:30px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
     .contact-table img {
         display:none;
     }
@@ -112,6 +113,6 @@
         min-width: 250px;
     }
     .contact-container {
-        margin-top: 0px;
+        margin-top: 50px;
     }
 }

@@ -7,7 +7,7 @@
     text-shadow: 2px 2px #000;
     padding:0px;
     margin:0px;
-    border-top: solid #000 1px;
+    border-top: none;
 }
 
 .landing-body video {
@@ -37,6 +37,7 @@
     align-self: flex-end;
     width:435px;
     margin-right:10px;
+    box-shadow: 0px 5px 5px 0px #000;
 }
 
 .landing-body .nextpage-link a {
@@ -83,10 +84,11 @@
 .landing-content h4 {
     color: #D3D0CB;
     text-shadow: 1px 0px #3C6E71;
+    font-weight: 100; 
     align-self: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1024px){
     .circles-background {
         align-items: center;
         justify-content: center;
