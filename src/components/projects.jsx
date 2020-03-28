@@ -65,10 +65,10 @@ class Projects extends Component {
                         cardColor='dark-card'
                         projectTitle='Sakura Rent-A-Car'
                         projectHeadline='Bilingual Car Rental Website'
-                        projectDescription={<p>
-                                Deployed updates for bilingual car rental website. 
-                                Added translations, modified reservations menu and rental calendar.
-                            </p>
+                        projectDescription={<ul>
+                                <li>Deployed updates for bilingual car rental website.</li> 
+                                <li>Added translations, modified reservations menu and rental calendar.</li>
+                            </ul>
                             }
                         />
                     </div>
@@ -78,12 +78,12 @@ class Projects extends Component {
 
                         <ProjectCard 
                         cardColor='dark-card'
-                        projectTitle={'Portfolio Website'}
+                        projectTitle={'Portfolio'}
                         projectHeadline={'React Portfolio Website'}
-                        projectDescription={<p>
-                            The page you are currently on was made entirely with React. 
-                            You can find the source code on my github page.
-                            </p>
+                        projectDescription={<ul>
+                                <li>The page you are currently on was made with React. </li> 
+                                <li>You can find the source code on my github page.</li>
+                            </ul>
                             }
                         />
                         <div className="border">
@@ -92,7 +92,7 @@ class Projects extends Component {
                         </div>
                         <ProjectCard 
                         projectTitle='Illustration Gallery'
-                        projectHeadline='Watercolor, Colored Pencil and Ink Artwork'
+                        projectHeadline='Watercolor | Colored Pencil'
                         projectDescription={<p>
                                 A glimpse of my work can be found on my Instagram, 
                                 found <a href="https://www.instagram.com/natalie_art7">here</a>. 
