@@ -10,6 +10,7 @@ class Contact extends Component {
         <div className="contact-body">
             <div className="contact-container">
             <div class="contact-table">
+                <div className="contact-top-color-bar"></div>
                 <div className="contact-text">
                 <h1>Contact Me</h1>
                     <div className="red-color-bar" />

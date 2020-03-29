@@ -10,6 +10,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 function App() {
   return (
     <div className="App">
+      <div className="top-color-bar"></div>
       <Layout>
           <Header className="layout-header" title={
           <span><strong> </strong></span>
