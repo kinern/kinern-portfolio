@@ -5,6 +5,11 @@ import Footer from './footer';
 
 class About extends Component {
     state = {  }
+
+    componentDidMount = () => {
+        document.getElementsByClassName('content')[0].scrollTop = 0;
+    }
+
     render() { 
         return (  
         <div className="about-body">

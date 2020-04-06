@@ -59,6 +59,7 @@
 #root { 
   font-family: 'Roboto', sans-serif;
   height: 100%;
+  overflow: hidden;
 }
 
 .routing-body {
@@ -116,4 +117,8 @@
   width: 100%;
   height: 3px;
   background: #3C6E71;
+}
+
+body {
+  overflow: hidden;
 }

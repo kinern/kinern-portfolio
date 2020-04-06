@@ -5,6 +5,11 @@ import Footer from './footer';
 
 class Contact extends Component {
     state = {  }
+
+    componentDidMount = () => {
+        document.getElementsByClassName('content')[0].scrollTop = 0;
+    }
+
     render() { 
         return (  
         <div className="contact-body">

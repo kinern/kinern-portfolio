@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import Landing from './landing';
 import Contact from './contact';
 import Projects from './projects';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 import About from './about';
 
 
