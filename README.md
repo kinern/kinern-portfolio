@@ -7,7 +7,7 @@ Demo Is Here: [https://kinern.github.io/kinern-portfolio](https://kinern.github.
 
 ---
 
-###Uses the following:
+#### Uses the following:
 - [react-router-dom](https://github.com/ReactTraining/react-router)
 - [React-MDL](https://github.com/tleunen/react-mdl)
 - [Google Material Design Lite](https://getmdl.io/)
