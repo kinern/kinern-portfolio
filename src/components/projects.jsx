@@ -17,7 +17,7 @@ class Projects extends Component {
     render() { 
         return ( 
         <div className="projects-body">
-            <div className="card-intro"><h2>Projects</h2></div>
+            <div className="card-intro"><h1>Projects</h1></div>
                 <div className='cards-container'>
                 <Masonry className={'cards'} options={{fitWidth: true}}>
                 <ProjectCard 

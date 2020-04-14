@@ -21,7 +21,7 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
           </Header>
-          <Drawer className="layout-drawer" style={{background: '#3C6E71'}}>
+          <Drawer className="layout-drawer" style={{background: '#FFFFFF'}}>
             <div className="drawer-navigation">
               <Link className="drawer-title" to="/">Natalie Kiner</Link>
               <div className="nav-color-bar" />

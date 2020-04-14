@@ -19,12 +19,10 @@
 .landing-body {
     height:100%;
     color: #D3D0CB;
-    text-shadow: 2px 2px #000;
     padding:0px;
     margin:0px;
     border-top: none;
 }
-
 
 .landing-content {
     margin-top:70px;
@@ -32,16 +30,15 @@
     margin-bottom: 10px;
     display:flex;
     flex-direction: column;
-    background-color: rgba(0,0,0,0.8);
+    background-color: none;
     padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-top: 3px solid #3C6E71;
 }
 
 
 .landing-body .nextpage-link {
-    background: #3C6E71;
+    background: #9BD1E5;
     padding: 5px;
     width: 100%;
     margin-top:20px;
@@ -55,14 +52,14 @@
     font-size: 2em;
     font-family: "Roboto" sans-serif;
     font-weight: 100; 
-    color: #D3D0CB;
+    color: #000000;
     text-shadow: 0px 0px #000;
     text-decoration: none;
     margin-right:10px;
 }
 
 .landing-body .nextpage-link a:hover {
-    color: #fff;
+    color: #000000;
 }
 
 .circles-background h1 {
@@ -129,7 +126,6 @@
         margin-top:120px;
         align-items: center;
         justify-content: center;
-        box-shadow: 0px 5px 5px 0px #000;
     }
     .landing-body .nextpage-link {
         width: 240px;

@@ -1,9 +1,8 @@
 /* About Me Page Styles */
 
 
-.about-body{
-    background: #171010;
-    color:white;
+.about-body {
+    color:#353535;
     padding:0px;
     margin:0px; 
     display:flex;
@@ -13,8 +12,6 @@
 
 @media only screen and (max-width: 600px) {
     .about-body {
-        background: #171010;
-        color:white;
         padding:0px;
         margin:0px;
         display:flex;
@@ -26,7 +23,7 @@
 
 .about-body hr {
     width:100%;
-    color: #753335;
+    border-top: solid 1px #353535;
 }
 .about-table {
     min-width: 500px;
@@ -46,12 +43,12 @@
 .about-body img {
     width: 200px;
     height: 200px;
-    background: #2B2226;
+    background: #9BD1E5;
     padding: 20px;
 }
 
 .aboutme-img img {
-    background: #3C6E71;
+    background: #9BD1E5;
 }
 
 .aboutme-img {
@@ -86,8 +83,8 @@
 }
 
 .about-body .nextpage-link {
-    background: #3C6E71;
-    color: #D3D0CB;
+    background: #9BD1E5;
+    color: #000000;
     padding: 10px;
     padding-left: 70px;
     padding-right: 70px;
@@ -100,7 +97,7 @@
 }
 
 .about-body .nextpage-link:hover {
-    color: #fff;
+    color: #000000;
 }
 
 .about-body h4 {
@@ -117,12 +114,12 @@
 
 .color-block-left {
     float:left;
-    background: #753335;
+    background: #F26419;
 }
 
 .color-block-right {
     float: right;
-    background: #8AEA92;
+    background: #F26419;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFFFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 
 .footer-container {
   width: 100%;
-  background: #2B2226;
+  background: #9BD1E5;
   margin-top: 50px;
   height: 50px;
   z-index: 1;
@@ -86,7 +86,7 @@
 }
 
 .footer-container p {
-  color: #ffffff;
+  color: #353535;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 20px;
@@ -116,9 +116,10 @@
 .top-color-bar {
   width: 100%;
   height: 3px;
-  background: #3C6E71;
+  background: #F26419;
 }
 
 body {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
 }

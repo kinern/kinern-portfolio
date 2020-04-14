@@ -1,23 +1,23 @@
 /* Main layout styles, to be used across all pages */
 
 .layout-header {
-  background: transparent;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #171010, #171010);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #171010, #171010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
+  background: rgba(0,0,0,0) !important;
   border: none;
-}
-.layout-header a {
-    color: #fff;
-    text-decoration: none;
 }
 
 body {
-  background: #171010;
+  background: transparent;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top left, #FFFFFF, #fff29c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top left, #FFFFFF, #fff29c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.mdl-layout__drawer-button {
-  color: #fff !important;
+.layout-header, .layout-header a, .layout-drawer a:hover,
+.layout-drawer a, .layout-drawer a:hover {
+  color: #353535;
+}
+
+.mdl-layout__header-row .mdl-navigation__link, .mdl-layout__drawer-button {
+  color: #353535 !important;
 }
 
 @media only screen and (max-width: 1024px){
@@ -29,12 +29,8 @@ body {
 .layout-drawer a {
   text-decoration: none;
   font-family: "Roboto" sans-serif;
-  color: #D3D0CB;
 }
 
-.layout-drawer a:hover {
-  color: #fff;
-}
 
 .drawer-navigation {
   display:flex;
@@ -55,7 +51,7 @@ body {
 .nav-color-bar {
   width: 150px;
   height: 2px;
-  background: #8AEA92;
+  background: #FCAF58;
   margin: 0 !important;
   padding: 0 !important;
   align-self: center;
@@ -63,7 +59,7 @@ body {
 }
 
 .nav-color-bar:hover {
-  background: #8AEA92 !important;
+  background: #FCAF58 !important;
 }
 
 .drawer-links-list {
@@ -81,10 +77,19 @@ body {
 }
 
 .drawer-links-list a i {
-  background: #fff;
+  background: #FFFFFF;
   padding:10px;
   border-radius: 50%;
   width: 12px;
   text-align:center;
   margin-right: 15px;
 }
+
+.layout-drawer .social-links a {
+  color: #3C6E71;
+}
+
+.layout-drawer .social-links a:hover {
+  color: #9BD1E5;
+}
+

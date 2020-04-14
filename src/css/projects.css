@@ -7,22 +7,28 @@
 
 .projects-body {
     height:100%;
-    background-color: #171010;
-    color: #D3D0CB;
-    border-top: solid #171010 1px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-}
-.projects-body hr {
-    color: #753335;
-    background-color: #753335;
-    width: 75%;  
-    border-top: none;  
+    background: #ffffff;
 }
 
-.projects-body h1, .projects-body h2, .projects-body h3{
+.card-intro {
+    max-width:600px;
+    align-self: center;
+}
+
+.card-intro h1 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+}
+
+
+.projects-body, .projects-body h2, .projects-body h3{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
 }
@@ -54,7 +60,7 @@
     justify-content: space-evenly;
     font-size: 24px;
     text-shadow: 2px 0px #000;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #D3D0CB;
     background-image: linear-gradient(to bottom right, #b55b5b, #753335);
 }
 
@@ -67,10 +73,9 @@
     display:flex;
     flex-direction: column;
     width:100%;
-    background: #753335;
-    padding-top: 50px;
     padding-bottom: 50px;
     margin-bottom: 30px;
+    background: #FFFFFF;
 }
 
 .cards {
@@ -81,15 +86,18 @@
 
 .projects-body .card {
     background-color: #D3D0CB; /*Card text background*/
-    color: #753335;
     margin: 10px;
-    box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 2px 2px 0px #7a320c;
+}
+
+.projects-body .card, .card-text, .card-text h4, .card-intro h1 {
+    color: #353535;
 }
 
 .card-text {
     width: 340px;
     min-height:150px;
-    background: #D3D0CB;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +119,6 @@
     font-weight: 700;
     margin:0;
     padding:0;
-    color: #753335;
 }
 
 .card-title.blue-card {
@@ -122,12 +129,6 @@
 }
 .card-title.orange-card {
     background-image: linear-gradient(to bottom right, #eca468, #753335);
-}
-
-.card-intro {
-    max-width:600px;
-    align-self: center;
-    margin-top: -20px;
 }
 
 .card-intro h5 {
@@ -162,7 +163,7 @@
     margin: 0;
     padding-right: 5px;
     padding-left: 5px;
-    background-color: #2B2226;
+    background-color: #353535;
 }
 
 .project-type h5 {
@@ -171,7 +172,7 @@
 }
 
 .card-icon {
-    background-color: #2B2226;
+    background-color: #353535;
     border-radius: 50%;
     width: 100px;
     height: 100px;
