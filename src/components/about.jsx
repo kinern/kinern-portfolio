@@ -19,7 +19,7 @@ class About extends Component {
             <div className="about-table">
                 <div className="about-row">
                     <div className="aboutme-img">
-                        <img src ={require('../images/lion-dog-statue.jpg')} alt="Statue" />
+                        <img src ={require('../images/pink-flower.jpg')} alt="Statue" />
                     </div>
                     <div className="aboutme-cell">
                         <h4>About Me</h4>
@@ -46,7 +46,7 @@ class About extends Component {
                         <div className="color-block-left" />
                     </div>
                     <div className="myworks-img">
-                        <img src={require('../images/frog.jpg')} alt="Frog"/>
+                        <img src={require('../images/penguins.jpg')} alt="Frog"/>
                     </div>
                 </div>
             </div> 
