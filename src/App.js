@@ -14,7 +14,7 @@ function App() {
       <Layout>
           <Header className="layout-header" title={
           <span><strong> </strong></span>
-          }>
+          } scroll>
           <Navigation className="topbar-links">
             <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>

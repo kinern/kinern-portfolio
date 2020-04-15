@@ -140,21 +140,23 @@
     margin-top: 50x;
     margin-bottom:50px;
     padding: 10px;
-    width: 400px;
+    width: 300px;
     align-self: center;
-    background: #3C6E71;
+    background: #9BD1E5;
     box-shadow: 0px 5px 5px #000;
+    border-radius: 2;
 }
 
 .nextpage-container a {
-    font-weight:100;
-    color: #D3D0CB;
+    font-weight:700;
+    color: #3C6E71;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
-.nextpage-container a:hover {
-    color: #fff;
+.nextpage-container:hover {
+    background: #9fdef5;
+    color: #49888c;
 }
 
 .project-type{

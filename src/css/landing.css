@@ -4,12 +4,12 @@
 .landing-background {
     background: url("../images/flower.jpg");
     background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(8px) brightness(3);
+    -webkit-filter: blur(8px) brightness(3);
     position: fixed;
     top: 0;
     left: 0;
-    margin-top: 80px;
+    margin-top: 10px;
     min-width: 100%;
     min-height: 100%;
     overflow:hidden;
@@ -39,33 +39,35 @@
 
 .landing-body .nextpage-link {
     background: #9BD1E5;
-    padding: 5px;
-    width: 100%;
+    padding: 10px;
     margin-top:20px;
-    align-self: flex-end;
-    width:435px;
-    margin-right:80px;
-    box-shadow: 0px 5px 5px 0px #000;
+    margin-left: 90px;
+    width: 350px;
+    box-shadow: 0px 2px 2px 0px #3C6E71;
 }
 
 .landing-body .nextpage-link a {
-    font-size: 2em;
+    font-size: 1.4em;
     font-family: "Roboto" sans-serif;
-    font-weight: 100; 
-    color: #000000;
+    font-weight: 700; 
     text-shadow: 0px 0px #000;
     text-decoration: none;
     margin-right:10px;
+    border-radius: 2;
+    padding:10px;
+    color: #3C6E71;
 }
 
-.landing-body .nextpage-link a:hover {
-    color: #000000;
+.landing-body .nextpage-link:hover {
+    background: #9fdef5;
+    color: #49888c;
 }
+
 
 .circles-background h1 {
     font-size: 6em;
     font-family: "Roboto" sans-serif;
-    color: #D3D0CB;
+    color: #FFFFFF;
     text-shadow: 4px 0px #3C6E71;
     white-space: nowrap;
     margin:0;
@@ -76,10 +78,6 @@
 }
 
 .circles-background {
-        background: radial-gradient(ellipse at center, #171010 0%, #171010 30%, transparent 40%);
-        background-size: 10px 10px;
-        background-repeat: repeat;
-        background-position: 0px center;
         width: 100%;
         height: 135px;
         display: flex;
@@ -99,6 +97,10 @@
     text-align: center;
 }
 
+
+  
+
+
 @media only screen and (max-width: 1024px){
     .circles-background {
         align-items: center;
@@ -116,7 +118,6 @@
     .landing-content h4 {
         margin-right: 0px;
         margin-top: -10px;
-        margin-bottom: 40px;
         font-size: 20px;
         margin-left: 0;
         margin-right: 0;
@@ -132,5 +133,6 @@
         text-align: center;
         align-self: center;
         margin-right:0px;
+        margin-left:0px;
     }
 }

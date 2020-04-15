@@ -42,7 +42,7 @@
     font-size: 36px;
     font-family: "Roboto" sans-serif;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding: 0;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .red-color-bar {
-    width: 200px;
+    width: 250px;
     height: 2px;
     background: #FCAF58;
     align-self: center;
