@@ -7,8 +7,11 @@
 
 body {
   background: transparent;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top left, #FFFFFF, #fff29c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top left, #FFFFFF, #fff29c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fff5b3;
+  /*
+  background: -webkit-linear-gradient(to top left, #FFFFFF, #fff5b3);
+  background: linear-gradient(to top left, #FFFFFF, #fff5b3);
+  */
 }
 
 .layout-header, .layout-header a, .layout-drawer a:hover,

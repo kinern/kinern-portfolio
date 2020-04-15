@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import '../css/about.css';
 import Footer from './footer';
 
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 class About extends Component {
     state = {  }
 
@@ -48,7 +51,7 @@ class About extends Component {
                 </div>
             </div> 
             <div className="nextpage-container">
-                <Link className="nextpage-link" to="/projects">See My Projects <span><i className="fa fa-arrow-right"></i></span></Link>
+                <Link className="nextpage-link" to="/projects">See My Projects <span><FontAwesomeIcon icon={faLongArrowAltRight} /></span></Link>
             </div>
             <Footer />
         </div>

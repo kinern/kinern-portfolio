@@ -5,6 +5,8 @@ import Footer from './footer';
 import ProjectCard from './projectcard';
 import Masonry from 'react-masonry-component';
 
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 class Projects extends Component {
@@ -18,6 +20,7 @@ class Projects extends Component {
         return ( 
         <div className="projects-body">
             <div className="card-intro"><h1>Projects</h1></div>
+                <div class="projects-background">
                 <div className='cards-container'>
                 <Masonry className={'cards'} options={{fitWidth: true}}>
                 <ProjectCard 
@@ -120,7 +123,8 @@ class Projects extends Component {
                 </Masonry>
                 </div>
             <div className="nextpage-container">
-                <Link className="nextpage-link" to="/contact">Contact Me <span><i className="fa fa-arrow-right"></i></span></Link>
+                <Link className="nextpage-link" to="/contact">Contact Me <span><FontAwesomeIcon icon={faLongArrowAltRight} /></span></Link>
+            </div>
             </div>
             <Footer />
         </div> 
