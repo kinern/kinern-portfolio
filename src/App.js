@@ -7,7 +7,11 @@ import { Link } from 'react-router-dom';
 import SocialLinks from './components/sociallinks';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
+import { faCertificate, faLaptopCode, faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function App() {
+
   return (
     <div className="App">
       <div className="top-color-bar"></div>
@@ -16,9 +20,9 @@ function App() {
           <span><strong> </strong></span>
           } scroll>
           <Navigation className="topbar-links">
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/about"><FontAwesomeIcon icon={faCertificate}/>About</Link>
+            <Link to="/projects"><FontAwesomeIcon icon={faLaptopCode}/>Projects</Link>
+            <Link to="/contact"><FontAwesomeIcon icon={faEnvelopeOpenText}/>Contact</Link>
           </Navigation>
           </Header>
           <Drawer className="layout-drawer" style={{background: '#FFFFFF'}}>
@@ -26,9 +30,9 @@ function App() {
               <Link className="drawer-title" to="/">Natalie Kiner</Link>
               <div className="nav-color-bar" />
               <div className="drawer-links-list">
-                <Link to="/about"><i className="fa fa-user"></i><span>About</span></Link>
-                <Link to="/projects"><i className="fa fa-laptop"></i><span>Projects</span></Link>
-                <Link to="/contact"><i className="fa fa-paper-plane"></i><span>Contact</span></Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
               </div>
             </div>
             <SocialLinks />

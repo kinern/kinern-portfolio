@@ -69,24 +69,16 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: nowrap;
   flex-grow: 3;
   text-align:left;
 }
 .drawer-links-list a {
- margin-top: 30px;
- width: 120px;
-}
-
-.drawer-links-list a i {
-  background: #FFFFFF;
-  padding:10px;
-  border-radius: 50%;
-  width: 12px;
-  text-align:center;
-  margin-right: 15px;
-}
+  text-align: center;
+  margin-top: 30px;
+  width: 120px;
+ }
 
 .layout-drawer .social-links a {
   color: #3C6E71;
