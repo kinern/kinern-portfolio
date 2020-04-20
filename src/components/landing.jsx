@@ -11,7 +11,7 @@ class Landing extends Component {
         return (  
 
         <div className="landing-body">
-            <div className="landing-background">test</div>
+            <div className="landing-background"></div>
             <div className="landing-content">
                 <div className="circles-background">
                     <h1>Natalie Kiner</h1>

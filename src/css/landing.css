@@ -4,12 +4,10 @@
 .landing-background {
     background: url("../images/flower.jpg");
     background-size: cover;
-    filter: blur(8px) brightness(3);
-    -webkit-filter: blur(8px) brightness(3);
     position: fixed;
     top: 0;
     left: 0;
-    margin-top: 10px;
+    margin-top: 3px;
     min-width: 100%;
     min-height: 100%;
     overflow:hidden;
@@ -67,8 +65,9 @@
 .circles-background h1 {
     font-size: 6em;
     font-family: "Roboto" sans-serif;
+    font-weight: 100;
     color: #FFFFFF;
-    text-shadow: 4px 0px #3C6E71;
+    text-shadow: 3px 0px #3C6E71;
     white-space: nowrap;
     margin:0;
     margin-top: 10px;
@@ -90,7 +89,6 @@
 .landing-content h4 {
     color: #D3D0CB;
     text-shadow: 1px 0px #3C6E71;
-    font-weight: 100; 
     margin-left: 90px;
     margin-top: 0;
     align-self: flex-start;
@@ -109,7 +107,7 @@
         height:120px;
     }
     .circles-background h1 {
-        font-size: 3.8em;
+        font-size: 4em;
         margin: 10px;
         padding: 0px;
         margin-bottom: 20px;
