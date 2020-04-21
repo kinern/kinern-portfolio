@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3f309e3.chunk.css",
-    "main.js": "/static/js/main.00cbc2f0.chunk.js",
-    "main.js.map": "/static/js/main.00cbc2f0.chunk.js.map",
+    "main.css": "/static/css/main.59e78656.chunk.css",
+    "main.js": "/static/js/main.69129c31.chunk.js",
+    "main.js.map": "/static/js/main.69129c31.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c1d8231.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c1d8231.js.map",
     "static/css/2.ac5cd1e0.chunk.css": "/static/css/2.ac5cd1e0.chunk.css",
     "static/js/2.e49fe065.chunk.js": "/static/js/2.e49fe065.chunk.js",
     "static/js/2.e49fe065.chunk.js.map": "/static/js/2.e49fe065.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1ff3d4a5660c1a98a448acdfc897dde6.js": "/precache-manifest.1ff3d4a5660c1a98a448acdfc897dde6.js",
+    "precache-manifest.e5e0a1747d1c9f299ad3c7c898cba1a7.js": "/precache-manifest.e5e0a1747d1c9f299ad3c7c898cba1a7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac5cd1e0.chunk.css.map": "/static/css/2.ac5cd1e0.chunk.css.map",
-    "static/css/main.b3f309e3.chunk.css.map": "/static/css/main.b3f309e3.chunk.css.map",
+    "static/css/main.59e78656.chunk.css.map": "/static/css/main.59e78656.chunk.css.map",
     "static/js/2.e49fe065.chunk.js.LICENSE.txt": "/static/js/2.e49fe065.chunk.js.LICENSE.txt",
-    "static/media/butterfly.jpg": "/static/media/butterfly.79011420.jpg",
-    "static/media/landing.css": "/static/media/flower.e22fa3c4.jpg",
+    "static/media/butterfly.jpg": "/static/media/butterfly.e2f4f55a.jpg",
+    "static/media/landing.css": "/static/media/flower.370710b5.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/penguins.jpg": "/static/media/penguins.cde82fdf.jpg",
-    "static/media/pink-flower.jpg": "/static/media/pink-flower.960dd684.jpg"
+    "static/media/penguins.jpg": "/static/media/penguins.757add4a.jpg",
+    "static/media/pink-flower.jpg": "/static/media/pink-flower.65f1bdd3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2c1d8231.js",
     "static/css/2.ac5cd1e0.chunk.css",
     "static/js/2.e49fe065.chunk.js",
-    "static/css/main.b3f309e3.chunk.css",
-    "static/js/main.00cbc2f0.chunk.js"
+    "static/css/main.59e78656.chunk.css",
+    "static/js/main.69129c31.chunk.js"
   ]
 }
