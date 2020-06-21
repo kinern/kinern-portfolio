@@ -21,14 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background: linear-gradient(
-        to bottom,
-        #fff5b3,
-        #fff5b3 50%,
-        #fff6d6 50%,
-        #fff6d6
-        );
-    background-size: 100% 20px;
+    background-color: #FFFFFF;
 }
 
 .card-intro {
@@ -105,7 +98,7 @@
 .projects-body .card {
     background-color: #D3D0CB; /*Card text background*/
     margin: 10px;
-    box-shadow: 0px 2px 2px 0px #7a320c;
+    box-shadow: 0px 5px 5px 0px #FCAF58;
 }
 
 .projects-body .card, .card-text, .card-text h4, .card-intro h1 {

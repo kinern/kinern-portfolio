@@ -7,7 +7,7 @@
 
 body {
   background: transparent;  /* fallback for old browsers */
-  background: #fff5b3;
+  background: #9BD1E5;
   /*
   background: -webkit-linear-gradient(to top left, #FFFFFF, #fff5b3);
   background: linear-gradient(to top left, #FFFFFF, #fff5b3);
@@ -54,7 +54,7 @@ body {
 .nav-color-bar {
   width: 150px;
   height: 2px;
-  background: #FCAF58;
+  background: #5C80BC;
   margin: 0 !important;
   padding: 0 !important;
   align-self: center;
@@ -62,7 +62,7 @@ body {
 }
 
 .nav-color-bar:hover {
-  background: #FCAF58 !important;
+  background: #5C80BC !important;
 }
 
 .drawer-links-list {

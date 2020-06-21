@@ -20,9 +20,9 @@ function App() {
           <span><strong> </strong></span>
           } scroll>
           <Navigation className="topbar-links">
-            <Link to="/about"><FontAwesomeIcon icon={faCertificate}/>About</Link>
-            <Link to="/projects"><FontAwesomeIcon icon={faLaptopCode}/>Projects</Link>
-            <Link to="/contact"><FontAwesomeIcon icon={faEnvelopeOpenText}/>Contact</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
           </Navigation>
           </Header>
           <Drawer className="layout-drawer" style={{background: '#FFFFFF'}}>

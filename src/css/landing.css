@@ -2,21 +2,21 @@
 
 
 .landing-background {
-    background: url("../images/flower.jpg");
+    background: url("../images/mountains.png");
     background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
     margin-top: 3px;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
     overflow:hidden;
     z-index: -1;
 }
 
 .landing-body {
     height:100%;
-    color: #D3D0CB;
+    color: #272838;
     padding:0px;
     margin:0px;
     border-top: none;
@@ -65,9 +65,8 @@
 .circles-background h1 {
     font-size: 6em;
     font-family: "Roboto" sans-serif;
-    font-weight: 100;
-    color: #FFFFFF;
-    text-shadow: 3px 0px #3C6E71;
+    color: #272838;
+    text-shadow: 1px 0px #3C6E71;
     white-space: nowrap;
     margin:0;
     margin-top: 10px;
@@ -87,7 +86,7 @@
 }
 
 .landing-content h4 {
-    color: #D3D0CB;
+    color: #272838;
     text-shadow: 1px 0px #3C6E71;
     margin-left: 90px;
     margin-top: 0;

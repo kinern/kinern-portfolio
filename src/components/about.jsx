@@ -51,7 +51,7 @@ class About extends Component {
                 </div>
             </div> 
             <div className="nextpage-container">
-                <Link className="nextpage-link" to="/projects">See My Projects <span><FontAwesomeIcon icon={faLongArrowAltRight} /></span></Link>
+                <Link className="nextpage-link" to="/projects">Projects <span><FontAwesomeIcon icon={faLongArrowAltRight} /></span></Link>
             </div>
             <Footer />
         </div>

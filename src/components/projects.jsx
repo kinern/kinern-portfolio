@@ -13,14 +13,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //The titles are used as keys with the ProjectData pseudo-table.
 const cardsArray = [
     'JTrack',
-    'Portfolio', 
     'PSP Pilot', 
     'Helpdesk', 
-    "Informakers", 
     "Bloguru",
-    'Sakura Rent-A-Car',
-    'Buy Green Signs',
-    'Illustration Gallery'
 ];
 
 const cards = cardsArray.map((title) =>
