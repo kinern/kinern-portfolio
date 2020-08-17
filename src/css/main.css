@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Default page sizes */
+.about, .contact, .projects {
+    min-height: 100vh;
+}
+
+/* Default text sizes */
+.projects-title h1, .contact-title h1 {
+    font-size: 3em;
+}
+
+
+/* Landing Page */
+.landing {
+    min-height:100vh;
+    background-image: url(/images/sunflower-background.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+.landing .down-arrow {
+    font-size: 2em;
+}
+
+.landing h1 {
+    font-size: 5em;
+}
+
+.landing-background {
+    z-index: -1;
+    position: absolute;
+}
+
+.landing .container {
+    z-index: 2;
+    height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+
+/* About Page */
+
+.about {
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.about-title {
+    margin-top:30px;
+}
+
+
+.dev-icons {
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+}
+
+.about-technology {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom:50px;
+
+}
+
+/* Projects Page */
+
+.projects {
+    margin-bottom: 30vh;
+}
+
+.projects-title {
+    height: 50vh;
+    background-image: url(/images/sunflower-background-2.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Project Cards */
+
+.projects .card {
+    width: 100%;
+    box-shadow: 0 5px 5px 0 lightgray;
+    border: none;
+    border-radius: 0;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.projects .card p {
+    max-width: 600px;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-header {
+    background-image: linear-gradient(to right, #36beeb , #fff);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+}
+
+.card ul {
+    list-style-type:circle;
+}
+
+.card-buttons {
+    width: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.project-btn {
+    background-color: #36beeb;
+    border:none;
+}
+
+.project-btn:hover {
+    background-color: #118AB2;
+}
+
+
+
+/* Contact Page Lead-In */
+
+.fixed-bg {
+    height: 50vh;
+    background-image: url(/images/clouds-background.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact Page */
+
+.contact {
+    padding-bottom: 150px;
+    background:
+    linear-gradient(135deg, #073B4C 21px, #118AB2 22px, #118AB2 24px, transparent 24px, transparent 67px, #118AB2 67px, #118AB2 69px, transparent 69px),
+    linear-gradient(225deg, #073B4C 21px, #118AB2 22px, #118AB2 24px, transparent 24px, transparent 67px, #118AB2 67px, #118AB2 69px, transparent 69px)0 64px;
+    background-color: #073B4C;
+    background-size: 64px 128px;
+    
+}
+
+
+.contact .container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+
+.contact .social-links {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.contact .social-links a{
+    color: #073B4C;
+    background-color: transparent;
+    border: none;
+}
+
+.contact .social-links a:hover{
+    color: darkcyan;
+    background-color: transparent;
+    border: none;
+}
+
+.contact .btn-primary {
+    background-color: #073B4C;
+    border: solid 1px #073B4C;
+}
+
+.contact .btn-primary:hover {
+    background-color: darkcyan;
+    border: solid 1px darkcyan;
+}
+
+.contact p {
+    max-width: 600px;
+}
+
+.contact-main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    margin-top:20px;
+    width: 100%;
+}
+
+.contact-form label{
+    font-weight: 700;
+}
+
+/* Footer */
+
+.footer {
+    background-color:lightgray;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer p {
+    font-weight: 700;
+    margin:0;
+}

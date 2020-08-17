@@ -8,8 +8,6 @@ import About from './about';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
-
-
 const Routing = () => (
     <Route render={({ location }) => (
         <div>

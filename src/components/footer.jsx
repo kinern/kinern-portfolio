@@ -3,7 +3,7 @@ class Footer extends Component {
     state = {  }
     render() { 
         return (           
-        <div className="footer-container">
+        <div className="fluid-container footer">
             <p>Copyright © 2020 Natalie Kiner</p>
         </div> 
         );
