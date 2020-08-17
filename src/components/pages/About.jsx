@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Badges from '../Badges';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

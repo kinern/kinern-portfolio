@@ -1,14 +1,9 @@
 import React from 'react';
 import { 
     faRunning, 
-    faEnvelopeOpenText, 
     faLaptopCode, 
     faPaperPlane, 
     faCar, 
-    faPalette, 
-    faImages,
-    faPaste,
-    faUsers,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

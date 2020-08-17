@@ -19,9 +19,9 @@ class ProjectCard extends Component {
     renderLinks = () => {
         const {url, repo} = this.props.project;
         const buttons = 
-            <div class="card-buttons">
-                {(url)? <a className="project-btn btn btn-primary" target="_blank" href={url}>View Site</a>: ''}
-                {(repo)? <a className="project-btn btn btn-primary" target="_blank" href={repo}>View Repo</a>: ''}
+            <div className="card-buttons">
+                {(url)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={url}>View Site</a>: ''}
+                {(repo)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={repo}>View Repo</a>: ''}
             </div>
         return buttons;
     }
@@ -32,7 +32,7 @@ class ProjectCard extends Component {
             return (
                 <React.Fragment>
                     <img className="card-img-top" src={headerImage} alt={title} />
-                    <div class="card-img-overlay"><h1 className="card-title">{title}</h1></div>
+                    <div className="card-img-overlay"><h1 className="card-title">{title}</h1></div>
                 </React.Fragment>
             )        
         } else {
@@ -52,7 +52,7 @@ class ProjectCard extends Component {
                 <div className="card-text">
                     <h4 className="text-center">{headline}</h4>
                     <hr />
-                    <p>{description}</p>
+                    {description}
                 </div>
                 {this.renderLinks()}
             </div>

@@ -4,7 +4,7 @@ import projectData from '../../projectData';
 
 
 const cards = projectData.map(project=>{
-    return <ProjectCard project={project} />
+    return <ProjectCard key={project.title} project={project} />
 });
 
 class Projects extends Component {

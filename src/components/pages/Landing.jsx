@@ -31,11 +31,11 @@ class Landing extends Component {
 
     render() { 
         return (  
-            <div className="fluid-container landing">
+            <div className="fluid-container landing" id="top">
                 <div className="container">
                     <h1 className="text-center" data-aos='fade-up'>Natalie Kiner</h1>
                     <h4 className="text-center" data-aos='fade-up'>Software Engineer & Illustrator</h4>
-                    <span data-aos='fade-up' className="down-arrow"><i class="fas fa-chevron-down"></i></span>
+                    <span data-aos='fade-up' className="down-arrow"><i className="fas fa-chevron-down"></i></span>
                 </div>
                 
             </div>

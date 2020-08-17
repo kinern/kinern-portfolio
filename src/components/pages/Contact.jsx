@@ -35,27 +35,27 @@ class Contact extends Component {
                         <form
                         action="https://formspree.io/mqkyjqwn"
                         method="POST"
-                        class="form"
+                        className="form"
                         >
                             <div className="form-group row">
                                 <label className="col-sm-2 col-form-label">Name</label>
-                                <div class="col-sm-10">
+                                <div className="col-sm-10">
                                     <input className="form-control" type="text" name="name" />
                                 </div>
                             </div>
                             <div className="form-group row">
                                 <label className="col-sm-2 col-form-label">E-mail</label>
-                                <div class="col-sm-10">
+                                <div className="col-sm-10">
                                     <input className="form-control" type="text" name="_replyto" />
                                 </div>
                             </div>
                             <div className="form-group row">
                                 <label className="col-sm-2 col-form-label">Message</label>
-                                <div class="col-sm-10">
+                                <div className="col-sm-10">
                                     <textarea className="form-control" name="message"></textarea>
                                 </div>
                             </div>
-                            <button class="btn btn-primary" type="submit">Send</button>
+                            <button className="btn btn-primary" type="submit">Send</button>
                         </form>
                     </div>
             </div> 

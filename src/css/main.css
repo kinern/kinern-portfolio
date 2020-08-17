@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#body {
+    position:relative;
+}
+
 /* Default page sizes */
 .about, .contact, .projects {
     min-height: 100vh;
