@@ -1,17 +1,25 @@
 # React Portfolio
-A simple multi-page portfolio website built using React.  
-Includes a landing page, about page, projects page and contact page.  
-All photos on the site were taken by me.  
-
-Demo Is Here: [https://kinern.github.io/kinern-portfolio](https://kinern.github.io/kinern-portfolio)
+A single scroll portfolio website.  
+Originally this was multipage but I felt it would be more efficent to use as a single scroll website.  
+Includes a Landing section, About section, Project Cards, and Contact Form.  
+Website: [https://kinern.github.io/kinern-portfolio](https://kinern.github.io/kinern-portfolio)
 
 ---
 
 #### Uses the following:
-- [react-router-dom](https://github.com/ReactTraining/react-router)
-- [React-MDL](https://github.com/tleunen/react-mdl)
-- [Google Material Design Lite](https://getmdl.io/)
-- [Google Fonts](https://https://fonts.google.com/)
-- [react-masonry-component](https://github.com/eiriklv/react-masonry-component) 
+- Boostrap Components (Navigation, Scrollspy, Layouts, Button and Form Styling)
+- Formspree form integration
+- FontAwesome Icons and Material Community Icons
+- AOS (Animate On Scroll) Transitions
+
+---
+
+## Screenshots
+
+### Previous Layouts
+
+#### Version 1
+<img src="./screenshots/portfolio-1-about-page.png" width="480px" alt="About Page" />
+<img src="./screenshots/portfolio-1-contact-page.png" width="480px" alt="Contact Page" />
 
 ---
