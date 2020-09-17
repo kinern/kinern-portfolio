@@ -30,7 +30,7 @@ const projectData = [
         </div>,
         icon : <FontAwesomeIcon icon={faRunning} />,
         tags: ['React Native', 'Javascript', 'SQLite', 'Android', 'HTML5', 'CSS3'],
-        url: null,
+        url: 'https://kinern.github.io/jtrack',
         repo: 'https://github.com/kinern/jtrack',
         headerImage: ''
 

@@ -30,8 +30,8 @@ class ProjectCard extends Component {
         const {url, repo} = this.props.project;
         const buttons = 
             <div className="card-buttons">
-                {(url)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={url}>View Site</a>: ''}
-                {(repo)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={repo}>View Repo</a>: ''}
+                {(url)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={url}>Website</a>: ''}
+                {(repo)? <a className="project-btn btn btn-primary" target="_blank" rel="noopener noreferrer" href={repo}>Repository</a>: ''}
             </div>
         return buttons;
     }

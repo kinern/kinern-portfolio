@@ -242,6 +242,7 @@ html {
 .project-btn {
     background-color: #36beeb;
     border:none;
+    margin: 10px;
 }
 
 .project-btn:hover {
