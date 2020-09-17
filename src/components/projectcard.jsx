@@ -5,14 +5,24 @@ import 'aos/dist/aos.css';
 
 
 class ProjectCard extends Component {
-    constructor(props) {
-        super(props);
-    }
-    
+
     componentDidMount(){
         AOS.init({
           duration : 1500
         })
+    }
+
+    renderTags = () => {
+        const {tags} = this.props.project;
+        return (
+        <div>
+            <div className="project-tags" >
+                {tags.map(item=>{
+                    return <div key={item} className="project-tool">{item}</div>
+                })}
+            </div>
+        </div>
+        );
     }
 
 
@@ -44,7 +54,7 @@ class ProjectCard extends Component {
     render() { 
         const {title, headline, description, headerImage } = this.props.project;
         return(
-        <div className="card" data-aos='fade-up'>
+        <div key={title} className="card" data-aos='fade-up'>
             <div className="card-header">
                 {this.renderHeaderImage()}
             </div>
@@ -52,6 +62,7 @@ class ProjectCard extends Component {
                 <div className="card-text">
                     <h4 className="text-center">{headline}</h4>
                     <hr />
+                    {this.renderTags()}
                     {description}
                 </div>
                 {this.renderLinks()}

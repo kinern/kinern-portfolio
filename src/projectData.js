@@ -3,7 +3,8 @@ import {
     faRunning, 
     faLaptopCode, 
     faPaperPlane, 
-    faCar, 
+    faEnvelope,
+    faLaptop, 
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -28,7 +29,7 @@ const projectData = [
             </ul>
         </div>,
         icon : <FontAwesomeIcon icon={faRunning} />,
-        tags: ['ReactJS', 'React Native', 'Javascript', 'Mobile Apps', 'SQLite', 'Android'],
+        tags: ['React Native', 'Javascript', 'SQLite', 'Android', 'HTML5', 'CSS3'],
         url: null,
         repo: 'https://github.com/kinern/jtrack',
         headerImage: ''
@@ -43,8 +44,7 @@ const projectData = [
             One of my first projects created with ReactJS. 
             It was originally a crash course for learning the language, 
             but has been gradually improved upon. My most recent updates 
-            include using Bootstrap and adding an inqury form to the 
-            contact page.
+            include adding more imagery and small changes to the style of the site.
             </p>
             <h5>Overview Of Project</h5>
             <ul>
@@ -56,7 +56,7 @@ const projectData = [
         </div>
         ,
         icon : <FontAwesomeIcon icon={faLaptopCode} />,
-        tags: ['ReactJS', 'Web Apps', 'Bootstrap', 'Javascript'],
+        tags: ['ReactJS', 'Javascript', 'Bootstrap', 'HTML5', 'CSS3'],
         url: null,
         repo: 'https://github.com/kinern/kinern-portfolio',
         headerImage: ''
@@ -82,9 +82,32 @@ const projectData = [
             
         </div>
         ,
-        tags: ['php', 'cakephp', 'sql', 'mysql', 'mariadb', 'js', 'jquery'],
+        tags: [],
         icon: <FontAwesomeIcon icon={faPaperPlane} />,
         url: "https://pilot.pspinc.com",
+        repo: null,
+        headerImage: ''
+    },
+    {
+        title: 'Helpdesk',
+        headline: 'Online Email Client Tool for Support Teams',
+        description:
+        <div>
+            <p>
+            Helpesk is an online email client specifically catered for support teams in small businesses.
+            This web application was built for Pacific Software Publishing LCC.
+            I was the lead developer for the project, and worked with closely in a small team to create the interface and functionality.
+            </p>
+            <h5>Major Features</h5>
+            <ul>
+                <li>Designed to allow multiple users to use client smoothly simultaneously.</li> 
+                <li>Integrates with the PSP Pilot web application contact directory to save and add new email contacts.</li>
+                <li>Sleek and easy to use interface.</li>
+            </ul>
+        </div>,
+        tags: [],
+        icon:  <FontAwesomeIcon icon={faEnvelope} />,
+        url: "https://pilot.pspinc.com/helpdesk",
         repo: null,
         headerImage: ''
     },
@@ -105,9 +128,9 @@ const projectData = [
                 <li>Revised email notification system</li>
             </ul>
         </div>,
-        tags: ['PHP', 'SQL', 'MySQL', 'Javascript', 'JQuery'],
-        icon:  <FontAwesomeIcon icon={faCar} />,
-        url: "https://www.sakura-rentacar.com",
+        tags: [],
+        icon:  <FontAwesomeIcon icon={faLaptop} />,
+        url: "https://www.bloguru.com",
         repo: null,
         headerImage: ''
     }
