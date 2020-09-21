@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Icon from '@mdi/react'
+import { mdiArrowUpBold } from '@mdi/js';
+
 class Footer extends Component {
     state = {  }
     render() { 
@@ -6,7 +9,10 @@ class Footer extends Component {
             <div>  
                 <a href="#top" className="return-top-a">
                     <div className="return-top">
-                        <i className="fa fa-arrow-up"></i>
+                        <Icon 
+                            path={mdiArrowUpBold}
+                            size={1}
+                        />
                     </div>
                 </a>      
                 <div className="fluid-container footer">

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Icon from '@mdi/react'
+import { mdiArrowDownBoldOutline } from '@mdi/js';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,7 +22,11 @@ class Landing extends Component {
                     <h1 className="text-center" data-aos='fade-up'>Natalie Kiner</h1>
                     <h4 className="text-center" data-aos='fade-up'>Software Engineer & Illustrator</h4>
                     <a href="#about" data-aos='fade-up'>
-                        <span data-aos='fade-up' className="down-arrow"><i className="fas fa-chevron-down"></i></span>
+                        <Icon 
+                        path={mdiArrowDownBoldOutline}
+                        size={2}
+                        className="down-arrow"
+                        />
                     </a>
                 </div>
                 
