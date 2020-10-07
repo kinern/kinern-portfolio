@@ -284,24 +284,36 @@ html {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
+.contact .social-container {
+    margin-top:20px;
+    margin-bottom: 20px;
+    min-width: 100%;
+    min-height: 50px;
+    display:flex;
+    justify-content: center;
+}
+
 
 .contact .social-links {
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     width: 50vw;
+    position:absolute;
 }
 
 .contact .social-links a{
     color: #073B4C;
     background-color: transparent;
     border: none;
+    transition: color 0.2s, font-size 0.2s;
 }
 
 .contact .social-links a:hover{
     color: darkcyan;
     background-color: transparent;
     border: none;
+    font-size: 1.1em;
 }
 
 .contact .btn-primary {
@@ -349,7 +361,8 @@ html {
 }
 
 .return-top {
-    padding: 5px 15px 5px 15px;
+    width: 50px;
+    height: 50px;
     font-size: 30px;
     background: white;
     position:absolute; bottom: 60px; right:20px;
@@ -357,6 +370,9 @@ html {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
     color: teal;
     transition: 0.3s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .return-top-a:hover .return-top {

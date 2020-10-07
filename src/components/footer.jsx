@@ -11,7 +11,7 @@ class Footer extends Component {
                     <div className="return-top">
                         <Icon 
                             path={mdiArrowUpBold}
-                            size={1}
+                            size={1.5}
                         />
                     </div>
                 </a>      
