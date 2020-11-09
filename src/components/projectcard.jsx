@@ -25,7 +25,6 @@ class ProjectCard extends Component {
         );
     }
 
-
     renderLinks = () => {
         const {url, repo} = this.props.project;
         const buttons = 
@@ -49,7 +48,6 @@ class ProjectCard extends Component {
             return <h1 className="card-title">{title}</h1>;
         } 
     }
-
 
     render() { 
         const {title, headline, description, headerImage } = this.props.project;

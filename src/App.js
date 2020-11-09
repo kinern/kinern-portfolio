@@ -8,7 +8,7 @@ import ProjectsPage from './components/pages/Projects';
 import ContactPage from './components/pages/Contact';
 import Footer from './components/Footer';
 
-import './css/main.css';
+import './css/main.scss';
 
 /*
 const AboutPage = React.lazy(()=>import('./components/pages/About'));

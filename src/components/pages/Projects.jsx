@@ -13,7 +13,7 @@ class Projects extends Component {
         return ( 
         <div className="fluid-container projects">
             <div className="projects-title" id="projects">
-                    <h1>Recent Projects</h1>
+                    <h1>Work</h1>
             </div>
             <div className="container">
                 <div className="container">

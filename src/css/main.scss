@@ -1,3 +1,14 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+
+@mixin center-col-flex {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,9 +23,20 @@ html {
 }
 
 /* Default text sizes */
-.projects-title h1, .contact-title h1 {
-    font-size: 3em;
+.navbar-brand {
+    font-family: $header-font;
 }
+.landing h1, .projects-title h1, h1.contact-title  {
+    @include text-base($header-font, $header-weight, $header-size);
+}
+.landing h4 {
+    @include text-base($sub-font, $sub-weight, $sub-size);
+}
+.about h2 {
+    @include text-base($header-font, $header-weight, $header-size);
+}
+
+
 
 .navbar {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
@@ -35,23 +57,20 @@ html {
 }
 
 .landing a{
-    color:black;
+    color:$dark-blue;
+    transition: color 0.5s, font-size 0.5s;
 }
 
-.landing a:hover {
-    color: teal;
-    text-shadow: 0 0 8px white;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition:.5s;
+.landing a:hover, .landing a:hover svg  {
+    color: $med-blue;
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    transition:.2s;
+    transform: scale(1.1) translate(0px,3px);
 }
 
-
-.landing h1 {
-    font-size: 5em;
-}
 
 .landing-background {
     z-index: -1;
@@ -62,10 +81,7 @@ html {
     z-index: 2;
     height: 100vh;
     position: relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center
+    @include center-col-flex;
 }
 
 /* About Page */
@@ -78,9 +94,7 @@ html {
 .about-title {
     margin-top:30px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    @include center-col-flex;
 }
 
 .profile-img {
@@ -96,10 +110,7 @@ html {
 }
 
 .about-technology {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
+    @include center-col-flex;
     margin-top: 30px;
     margin-bottom:50px;
 
@@ -107,10 +118,7 @@ html {
 
 .interests .col-lg{
     margin-top: 50px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include center-col-flex;
 }
 
 .interest-icons {
@@ -122,8 +130,8 @@ html {
 
 .interest-icon {
     font-size: 25px;
-    background-color: lightskyblue;
-    color: teal;
+    background-color: $offwhite-blue;
+    color: $light-blue;
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -135,18 +143,18 @@ html {
 }
 
 .interest-icon.active{
-    background-color: #ffff66;
-    color: sienna;
+    background-color: $light-yellow;
+    color: $dark-yellow;
 }
 
 .interest-icon:hover{
-    background-color: #ffff66;
-    color: sienna;
+    background-color: $light-yellow;
+    color: $dark-yellow;
 }
 
 .interests-text {
     margin-top:20px;
-    background-color: #ffff66;
+    background-color: $light-yellow;
     padding:20px;
     border-radius: 3px;
     width: 80vw;
@@ -174,7 +182,6 @@ html {
 
 .projects .card {
     width: 100%;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
     border: none;
     border-radius: 0;
     margin-top:100px;
@@ -190,7 +197,7 @@ html {
 }
 
 .card-header {
-    background-image: linear-gradient(to right, #36beeb , #fff);
+    background-image: linear-gradient(to right, $light-blue, white);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -217,8 +224,8 @@ html {
     font-size: 12px;
     font-weight: 700;
     margin: 5px;
-    background: #ffff66;
-    color:goldenrod;
+    background: $light-yellow;
+    color: $med-yellow;
     padding: 5px;
     border-radius: 5px;
     min-width: 32px;
@@ -227,8 +234,8 @@ html {
 }
 
 .project-tool:hover {
-    background: #ade2f0;
-    color: #5f8d99;
+    background: $offwhite-blue;
+    color: $med-blue;
 }
 
 .card-buttons {
@@ -240,13 +247,13 @@ html {
 }
 
 .project-btn {
-    background-color: #36beeb;
+    background-color: $light-blue;
     border:none;
     margin: 10px;
 }
 
 .project-btn:hover {
-    background-color: #118AB2;
+    background-color: $med-blue;
 }
 
 
@@ -268,10 +275,8 @@ html {
 
 .contact {
     padding-bottom: 150px;
-    background:
-    linear-gradient(135deg, #073B4C 21px, #118AB2 22px, #118AB2 24px, transparent 24px, transparent 67px, #118AB2 67px, #118AB2 69px, transparent 69px),
-    linear-gradient(225deg, #073B4C 21px, #118AB2 22px, #118AB2 24px, transparent 24px, transparent 67px, #118AB2 67px, #118AB2 69px, transparent 69px)0 64px;
-    background-color: #073B4C;
+    background: $contact-bg-pattern;
+    background-color: $dark-blue;
     background-size: 64px 128px;
     
 }
@@ -303,27 +308,27 @@ html {
 }
 
 .contact .social-links a{
-    color: #073B4C;
+    color: $dark-blue;
     background-color: transparent;
     border: none;
     transition: color 0.2s, font-size 0.2s;
 }
 
 .contact .social-links a:hover{
-    color: darkcyan;
+    color: $med-blue;
     background-color: transparent;
     border: none;
     font-size: 1.1em;
 }
 
 .contact .btn-primary {
-    background-color: #073B4C;
-    border: solid 1px #073B4C;
+    background-color: $dark-blue;
+    border: solid 1px $dark-blue;
 }
 
 .contact .btn-primary:hover {
-    background-color: darkcyan;
-    border: solid 1px darkcyan;
+    background-color: $med-blue;
+    border: solid 1px $med-blue;
 }
 
 .contact p {
@@ -331,9 +336,7 @@ html {
 }
 
 .contact-main {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    @include center-col-flex;
 }
 
 .contact-form {
@@ -348,7 +351,7 @@ html {
 /* Footer */
 
 .footer {
-    background-color:lightgray;
+    background-color: $light-gray;
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -368,7 +371,7 @@ html {
     position:absolute; bottom: 60px; right:20px;
     border-radius: 3px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
-    color: teal;
+    color: $med-blue;
     transition: 0.3s;
     display:flex;
     justify-content: center;
@@ -377,5 +380,5 @@ html {
 
 .return-top-a:hover .return-top {
     box-shadow: 0 0 3px white;
-    color: skyblue;
+    color: $offwhite-blue;
 }

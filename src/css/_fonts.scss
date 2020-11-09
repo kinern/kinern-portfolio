@@ -1,0 +1,21 @@
+$header-font: 'Francois One', sans-serif;
+$header-weight: 700;
+$header-size: 5em;
+
+$section-header-font: 'Francois One', sans-serif;
+$section-header-weight: 700;
+$section-header-size: 5em;
+
+$sub-font: 'Open Sans', sans-serif;
+$sub-weight: 400;
+$sub-size: 2em;
+
+$main-font: 'Open Sans', sans-serif;
+$main-weight: 400;
+$main-size: 16;
+
+@mixin text-base ($font, $weight, $size) {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+}

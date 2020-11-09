@@ -17,7 +17,7 @@ class Contact extends Component {
         return (  
         <div className="fluid-container contact">
             <div className="fixed-bg fluid-container" id="contact">
-                <h1 className="contact-title">Contact Me</h1>
+                <h1 className="contact-title">Contact</h1>
             </div>
             <div className="container contact-main" data-aos='fade-up'>
                     <div>
