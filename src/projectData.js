@@ -12,19 +12,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const projectData = [
     {
         title: 'JTrack', 
-        headline: 'Mobile Fitness Tracking Application',
+        headline: 'Streamlined Mobile App For Tracking Workouts',
         description: 
         <div>
             <p>
-                JTtrack is a fitness tracking mobile application. 
-                I had originally built this tool as a way to track jump rope exercise 
-                routines, hence the "J" in the name. 
+                <strong>JTrack</strong> is a mobile application for tracking daily workout routines.
+                It includes a monthly calendar with the ability to add in minutes of exercise.
+                There is a statistics page for visually showing the progress being made.
+                Originally, it was created as a way to manage daily jump rope routines, 
+                hence the "J" in the name.
             </p>
-            <h5>Overview Of Project</h5>
+            <h5>Features</h5>
             <ul>
-                <li>Daily fitness tracker using Jerry Seinfeld's "Don't Break The Chain" method</li> 
-                <li>Interactive calendar and local weather using OpenWeatherMap API</li>
-                <li>Statistics page with monthly graph of recorded exercises.</li>
+                <li>Implements Jerry Seinfeld's "Don't Break The Chain" method</li> 
+                <li>Displays local weather using OpenWeatherMap API</li>
+                <li>Generates graph of recorded exercises on Statistics screen</li>
                 <li>Bright layout with colorful icons</li>
             </ul>
         </div>,
@@ -37,22 +39,18 @@ const projectData = [
     },
     {
         title: 'React Porfolio',
-        headline: 'New Design For Portfolio Website',
+        headline: 'Single-Scroll Portfolio with Colorful Design',
         description: 
         <div>
             <p>
-            One of my first projects created with ReactJS. 
-            It was originally a crash course for learning the language, 
-            but has been gradually improved upon. My most recent updates 
-            include adding more imagery and small changes to the style of the site.
+                <strong>This website</strong> is a simple single-scrolling 
+                portfolio to show who I am and what I do. It contains an 
+                overview about myself and my projects, along with a section 
+                to contact me by.
             </p>
-            <h5>Overview Of Project</h5>
-            <ul>
-                <li>Compact projects page with snippet of recent project information</li>
-                <li>Contact page with integrated external form</li>
-                <li>Clean and easy to navigate layout</li>
-                <li>Fixed background sections and engaging animations.</li>
-            </ul>
+            <p>
+
+            </p>
         </div>
         ,
         icon : <FontAwesomeIcon icon={faLaptopCode} />,
@@ -63,23 +61,32 @@ const projectData = [
     },
     {
         title: 'PSP Pilot',
-        headline: "CRM For Small Businesses",
+        headline: "Launching Businesses In The Right Direction",
         description: 
         <div>
             <p>
-            PSP Pilot is a CRM web application for small business.
-            It is a product of the company Pacific Software Publishing LCC.
-            As a lead developer, I was in control of creating the backend functionality.
+                <strong>PSP Pilot</strong> is a CRM tool for small businesses.
+                Employee, client and project tracking are all combined within the application.
+                I was a lead developer in the creation of PSP Pilot, 
+                and had an essential role in the back-end development of the product.
             </p>
-            <h5> Major Features </h5>
-                <ul>
-                    <li>Initial setup and backend design of the web application.</li>
-                    <li>Address books for company employee and contact information and recent activity.</li>
-                    <li>Assignment tracking tool for projects.</li>
-                    <li>Feedback - Survey forms for sending out to clients</li>
-                    <li>Helpdesk - Online email client for support teams</li>
-                </ul>
-            
+            <p> 
+                Additional services for PSP Pilot include Feedback and Help Desk.
+            </p>
+            <p>
+                <strong>Feedback</strong> is a survey generating tool that connects to the client section of PSP Pilot.
+                As a team member for Feedback, my role included updating the survey 
+                retrieval and display system, improving overall performance.
+            <p>
+            </p>
+                <strong>Help Desk</strong> is an online email tool that allows support teams to 
+                quickly handle requests and record email threads into PSP Pilot.
+                I played a major role in the creation and development for this project. 
+                More information can be found in the next project section.
+            </p>
+            <p>
+                PSP Pilot, Feedback, and Help Desk are products of Pacific Software Publishing Inc.
+            </p>
         </div>
         ,
         tags: [],
@@ -90,20 +97,20 @@ const projectData = [
     },
     {
         title: 'Helpdesk',
-        headline: 'Online Email Client Tool for Support Teams',
+        headline: 'Building Strong Connections Between Clients And Support Teams',
         description:
         <div>
             <p>
-            Helpesk is an online email client specifically catered for support teams in small businesses.
-            This web application was built for Pacific Software Publishing LCC.
-            I was the lead developer for the project, and worked with closely in a small team to create the interface and functionality.
+            <strong>Helpdesk</strong> is an online email client specifically 
+                catered for support teams in small businesses.
+                This tool connects directly to the client section of PSP Pilot. 
+                Email threads are kept track of and displayed in an organized fashion.
+                New clients can be added on Helpdesk, which then get generated 
+                on PSP Pilot automatically. 
             </p>
-            <h5>Major Features</h5>
-            <ul>
-                <li>Designed to allow multiple users to use client smoothly simultaneously.</li> 
-                <li>Integrates with the PSP Pilot web application contact directory to save and add new email contacts.</li>
-                <li>Sleek and easy to use interface.</li>
-            </ul>
+            <p>
+                Helpdesk is a product of Pacific Software Publishing Inc.
+            </p>
         </div>,
         tags: [],
         icon:  <FontAwesomeIcon icon={faEnvelope} />,
@@ -117,16 +124,27 @@ const projectData = [
         description:
         <div>
             <p>
-            Bloguru is an established English | Japanese Bilingual blogging hub. 
-            It is a free application from Pacific Software Publishing LCC.
-            I worked with a small team to add new features and resolve issues on the website.
+                <strong>Bloguru</strong> is a long-established bilingual blogging website for 
+                English & Japanese speakers.
             </p>
-            <h5>Major Features</h5>
-            <ul>
-                <li>Designed and created backend system for video upload and management service</li> 
-                <li>Updated admin side of new customizable themes for blogs</li>
-                <li>Revised email notification system</li>
-            </ul>
+            <p>
+                I was the go-to back end developer for:
+                <ul>
+                    <li>Video Upload And Management</li>
+                    <li>Custom Themes 2.0</li>
+                </ul>
+                As well as updating a multitude of features:
+                <ul>
+                    <li>Blog Post Aggregator</li>
+                    <li>Email Notifications</li>
+                    <li>Generating Posts Via Email</li>
+                    <li>Sharing On Social Media</li>
+                </ul>
+            </p>
+
+            <p>
+                Bloguru is a product of Pacific Software Publishing Inc.
+            </p>
         </div>,
         tags: [],
         icon:  <FontAwesomeIcon icon={faLaptop} />,
