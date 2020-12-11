@@ -2,8 +2,8 @@ import React from 'react';
 
 export default () => {
     return ( 
-        <div className="social-container">
-            <div className="social-links">
+        <div className="social-links">
+            <div className="inner">
                 <a className="btn" href="https://www.linkedin.com/in/natalie-kiner/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-linkedin-square fa-3x" rel="noopener noreferrer"aria-hidden="true" />
                 </a>

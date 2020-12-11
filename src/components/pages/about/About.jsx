@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import Icon from '@mdi/react'
-import { mdiTennis, mdiTea } from '@mdi/js';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import portraitImage from '../../images/portfolio-portrait.png';
+import portraitImage from '../../../images/portfolio-portrait.png';
 
 class About extends Component {
     state = { }
@@ -13,7 +11,7 @@ class About extends Component {
     componentDidMount(){
         AOS.init({
           duration : 1500
-        })
+        });
     }
 
     render() { 

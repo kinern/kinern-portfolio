@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SocialLinks from '../SocialLinks';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,18 +18,14 @@ class Contact extends Component {
             <div className="fixed-bg fluid-container" id="contact">
                 <h1 className="contact-title">Contact</h1>
             </div>
-            <div className="container contact-main" data-aos='fade-up'>
+            <div className="container main">
                     <div>
                         <p>
                            If you have inquiries or would like to know more about a project, 
                            feel free to send me a message below! 
-                           I can also be contacted through any of my social media profiles. 
                         </p>
                     </div>
-                    <h3 className="text-center">Social Media</h3>
-                    <SocialLinks />
                     <div className="contact-form">
-                        <h2 className="text-center">Get In Touch</h2>
                         <hr />
                         <form
                         action="https://formspree.io/mqkyjqwn"

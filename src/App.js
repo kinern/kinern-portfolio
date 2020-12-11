@@ -1,21 +1,21 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 
-import HeaderNav from './components/HeaderNav';
-import LandingPage from './components/pages/Landing';
+import {Switch, Route} from 'react-router-dom';
 
-import AboutPage from './components/pages/About';
-import ProjectsPage from './components/pages/Projects';
-import ContactPage from './components/pages/Contact';
-import Footer from './components/Footer';
+import HeaderNav from './components/navigation/HeaderNav';
+import Footer from './components/navigation/Footer';
+
+import Home from './components/pages/home/Home';
+import Projects from './components/pages/projects/Projects';
+import About from './components/pages/about/About';
+import Contact from './components/pages/contact/Contact';
+
+import ProjectPage from './components/projects/ProjectPage';
+import JTrack from './components/projects/JTrack';
+import Portfolio from './components/projects/Portfolio';
+import PSPProjects from './components/projects/PSPProjects';
 
 import './css/main.scss';
-
-/*
-const AboutPage = React.lazy(()=>import('./components/pages/About'));
-const ProjectsPage = React.lazy(()=>import('./components/pages/Projects'));
-const ContactPage = React.lazy(()=>import('./components/pages/Contact'));
-const Footer = React.lazy(()=>import('./components/Footer'));
-*/
 
 export default class App extends React.Component {
   
@@ -23,13 +23,33 @@ export default class App extends React.Component {
     return (
       <div>
         <HeaderNav />
-        <LandingPage />
-        <Suspense fallback={<div>Loading...</div>}>
-          <AboutPage />
-          <ProjectsPage />
-          <ContactPage />
-          <Footer />
-        </Suspense>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/jtrack">
+            <ProjectPage title={'JTrack'} main={<JTrack />}/>
+          </Route>
+          <Route path="/portfolio">
+            <ProjectPage title={'Portfolio'} main={<Portfolio />}/>
+          </Route>
+          <Route path="/pspprojects">
+            <ProjectPage title={'PSP Projects'} main={<PSPProjects />}/>
+          </Route>
+        </Switch>
+        <Footer />
       </div>
     );
   }
