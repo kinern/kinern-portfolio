@@ -214,12 +214,14 @@ body {
     padding: 50px;
     margin-top: 30vh;
     margin-bottom: 20vh;
-    background-color: $med-blue;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    background-color: lightblue;
+    border-bottom: 2px solid $med-blue;
+    border-top: 2px solid $med-blue;
     color: #fff;
-    text-shadow: 0 0 5px #000;
-
+    text-shadow: 0 0 4px #666978;
+    h1 {
+        font-family: $header-font;
+    }
     .social-links {
         .inner {
             display:flex;
@@ -228,18 +230,17 @@ body {
             width: 360px;
         }
         a {
-            color: white;
+            color: #fffa94;
             background-color: transparent;
-            text-shadow: 0 0 5px black;
+            text-shadow: 0 0 2px #000;
             border: none;
-            transition: text-shadow 0.4s;
+            transition: color 0.4s;
         }
         a:hover {
-            color: white;
+            color: #ffd770;
             background-color: transparent;
-            text-shadow: 0 0 5px gray;
             border: none;
-            transition: text-shadow 0.4s;
+            transition: color 0.4s;
         }
     }
 }
@@ -312,7 +313,7 @@ body {
         h1 {
             font-family: $header-font;
             color: white;
-            text-shadow: black;
+            text-shadow: 0 0 4px $med-blue;
             font-size: 72px;
         }
     }
@@ -369,6 +370,28 @@ body {
             .right-col {
                 margin-top: 20px;
             }
+        }
+    }
+}
+
+.jtrack-slides {
+    width: 400px;
+    background-color: $med-blue
+}
+
+.jtrack {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .jtrack-slide {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        img {
+            width:200px;
+            height:400px;
         }
     }
 }

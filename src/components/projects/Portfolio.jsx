@@ -8,16 +8,13 @@ class Portfolio extends React.Component {
     render(){
         return(
             <div>
-                <h2>Portfolio</h2>
-                <hr />
-                <div>
-                    <p>
-                        <strong>This website</strong> is a simple single-scrolling 
-                        portfolio to show who I am and what I do. It contains an 
-                        overview about myself and my projects, along with a section 
-                        to contact me by.
-                    </p>
-                </div>
+                <p>
+                    This website was created in early 2020 as a way for me to try out ReactJS.
+                    I have been regularly updating the design and functionality of the website.
+                </p>
+                <p>
+                    More information coming soon!
+                </p>
             </div>
         );
     }
