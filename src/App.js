@@ -40,13 +40,13 @@ export default class App extends React.Component {
             <Contact />
           </Route>
           <Route path="/jtrack">
-            <ProjectPage title={'JTrack'} main={<JTrack />}/>
+            <ProjectPage title={'JTrack'}><JTrack /></ProjectPage>
           </Route>
           <Route path="/portfolio">
-            <ProjectPage title={'Portfolio'} main={<Portfolio />}/>
+            <ProjectPage title={'Portfolio'}><Portfolio /></ProjectPage>
           </Route>
           <Route path="/pspprojects">
-            <ProjectPage title={'PSP Projects'} main={<PSPProjects />}/>
+            <ProjectPage title={'PSP Projects'}><PSPProjects /></ProjectPage>
           </Route>
         </Switch>
         <Footer />

@@ -1,13 +1,13 @@
 import React from 'react';
 
-const ProjectPage = ({ title, main }) => {
+const ProjectPage = ({ title, children }) => {
         return(
             <div className="project-page">
                 <div className="title">
                     <h1>{title}</h1>
                 </div>
                 <div className="main">
-                    {main}
+                    {children}
                 </div>
             </div>
         );

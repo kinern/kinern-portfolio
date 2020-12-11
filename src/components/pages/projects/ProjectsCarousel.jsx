@@ -37,7 +37,7 @@ const ProjectCarousel = () => {
             imageUrl: pspPilotImg, 
             title: "PSP Pilot", 
             description:"Launching Businesses in the Right Direction", 
-            link:"/psp-pilot", 
+            link:"/pspprojects", 
             longDescription: `
             PSP Pilot is a CRM web application for businesses to manage clients, employees and projects.
             A product of Pacific Software Publishing.
@@ -47,7 +47,7 @@ const ProjectCarousel = () => {
             imageUrl: helpdeskImg, 
             title: "Helpdesk", 
             description:"Building Strong Connections for Clients and Support", 
-            link:"/helpdesk", 
+            link:"/pspprojects", 
             longDescription: `
             Helpdesk is an online email client tool for responding to client requests.
             It works in tandem with PSP Pilot, automating client creation and storing email threads.
@@ -58,7 +58,7 @@ const ProjectCarousel = () => {
             imageUrl: bloguruImg, 
             title: "Bloguru", 
             description:"Bilingual Blogging Hub", 
-            link:"/bloguru", 
+            link:"/pspprojects", 
             longDescription: `
             As a long-established bilingual blogging website for 
             English & Japanese speakers, Bloguru has a wide variety of features to create unique blogs with.

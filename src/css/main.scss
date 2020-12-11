@@ -139,7 +139,7 @@ body {
         }
         h3 {
             font-size: 18px;
-            color: darkslategray;
+            color: #666978;
         }
     }
     .item {
@@ -264,7 +264,7 @@ body {
 }
 
 .footer {
-    background-color: darkslategray;
+    background-color: #666978;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -304,22 +304,23 @@ body {
     background-image: linear-gradient(lightblue, $med-blue);
     padding-bottom: 100px;
     .title {
-        width: 100vw;
+        width: 100%;
         height: 50vh;
         display:flex;
         align-items: center;
         justify-content: center;
         h1 {
+            font-family: $header-font;
             color: white;
             text-shadow: black;
             font-size: 72px;
         }
     }
     .main {
-        height: 100vh;
         margin: 20px;
+        padding: 20px;
         background-color: white;
-        box-shadow: 0 2px 2px 0px darkslategray;
+        box-shadow: 0 2px 2px 0px #666978;
         .img-container {
             width: 200px;
             background-color: $med-blue;
