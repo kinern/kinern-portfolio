@@ -395,3 +395,56 @@ body {
         }
     }
 }
+
+.project-detailed {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .header {
+        height: 100px;
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    img.header-img {
+        width: auto;
+        height: auto;
+    }
+    p {
+        max-width: 600px;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+.portfolio {
+    img.header-img {
+        margin: -360px 0px 0px 0px;
+    }
+}
+
+.jtrack {
+    img.header-img {
+        margin: -160px 0px 0px 0px;
+    }
+}
+
+.pspprojects {
+    .header {
+        height: 50px;
+        max-width: 100%;
+    }
+    img.header-img.bloguru{
+        margin: -500px 0px 0px 0px;
+    }
+    img.header-img.helpdesk{
+        margin: -400px 0px 0px 0px;
+    }
+    img.header-img.pilot{
+        margin: -360px 0px 0px 0px;
+    }
+}
