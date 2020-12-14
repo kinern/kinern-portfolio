@@ -12,12 +12,10 @@ const AboutSmall = () => {
                 </div>
                 <div className="right-col">
                     <p>
-                        My name is Natalie. I am a <strong>Full Stack Web Developer</strong> living in the Pacific Northwest.
-                        I have built a variety of web applications, ranging from creating reliable websites 
-                        for clients to integrating tools such as online vector graphic editors 
-                        and mail services to existing webpages. 
-                        In my spare time I have built mobile applications and games. 
-                        I am always eager to work with the latest technologies.
+                        My name is Natalie Kiner. I am a <strong>Full Stack Web Developer</strong> living in the Pacific Northwest. I have worked on a number of web applications, including the multilingual blogging website Bloguru and CRM suite PSP Pilot. Along with my professional work, I enjoy learning about the latest technologies and building personal apps. My latest project is JTrack, a fitness tracking mobile application.
+                        <br />
+                        <br />
+                        I am also passionate about creating art. My main mediums are pens and watercolor paints. You can see a glimpse of artwork on my Instagram page.
                     </p>
                 </div>
             </div>
