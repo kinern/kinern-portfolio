@@ -26,7 +26,7 @@ body {
 
 
 .landing h1, .projects-title h1, h1.contact-title  {
-    @include text-base($header-font, $header-weight, 8em);
+    @include text-base($header-font, $header-weight, 6em);
 }
 
 
@@ -68,9 +68,6 @@ body {
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
-    .down-arrow {
-        font-size: 2em;
-    }
     .container {
         height: 100vh;
         @include center-col-flex;
