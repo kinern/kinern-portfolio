@@ -1,0 +1,108 @@
+.project-page {
+    background-image: linear-gradient(lightblue, $med-blue);
+    padding-bottom: 100px;
+    .title {
+        width: 100%;
+        height: 50vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            font-family: $header-font;
+            color: white;
+            text-shadow: 0 0 4px $med-blue;
+            font-size: 72px;
+        }
+    }
+    .main {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 2px 2px 0px #666978;
+        .img-container {
+            width: 200px;
+            background-color: $med-blue;
+            height: 200px;
+            margin:10px;
+        }
+        img {
+            width: 180px;
+            background-color: $med-blue;
+            height: 180px;
+            margin: 10px;
+        }
+    }
+}
+
+.project-detailed {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .header {
+        height: 100px;
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    img.header-img {
+        width: auto;
+        height: auto;
+    }
+    p {
+        max-width: 600px;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+.portfolio {
+    img.header-img {
+        margin: -360px 0px 0px 0px;
+    }
+}
+
+.jtrack {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    img.header-img {
+        margin: -160px 0px 0px 0px;
+    }
+    .jtrack-slides {
+        width: 400px;
+        background-color: $med-blue
+    }    
+    .jtrack-slide {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        img {
+            width:200px;
+            height:400px;
+        }
+    }
+}
+
+
+
+.pspprojects {
+    .header {
+        height: 50px;
+        max-width: 100%;
+    }
+    img.header-img.bloguru{
+        margin: -500px 0px 0px 0px;
+    }
+    img.header-img.helpdesk{
+        margin: -400px 0px 0px 0px;
+    }
+    img.header-img.pilot{
+        margin: -360px 0px 0px 0px;
+    }
+}

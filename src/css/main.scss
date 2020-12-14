@@ -1,4 +1,5 @@
 @import "abstracts/_abstracts-dir";
+@import "projects";
 
 @mixin center-col-flex {
     display:flex;
@@ -7,27 +8,37 @@
     align-items:center
 }
 
+
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     position: relative;
 }
 
+
 /* Default text sizes */
 .navbar-brand {
     font-family: $header-font;
 }
+
+
 .landing h1, .projects-title h1, h1.contact-title  {
     @include text-base($header-font, $header-weight, 8em);
 }
+
+
 .landing h4 {
     @include text-base($sub-font, $sub-weight, $sub-size);
 }
+
+
 .about h2 {
     @include text-base($header-font, $header-weight, $header-size);
 }
+
 
 .top-nav {
     position: absolute;
@@ -43,11 +54,12 @@ body {
         transition: color 0.2s;
     }
     a:hover{
-        color: black;
+        color: $dark-blue;
         text-decoration: none; 
         transition: color 0.2s;  
     }
 }
+
 
 /* Landing Page */
 .landing {
@@ -59,19 +71,6 @@ body {
     .down-arrow {
         font-size: 2em;
     }
-    a {
-        color:$dark-blue;
-        transition: color 0.5s, font-size 0.5s;
-    }
-    a:hover, a:hover svg  {
-        color: $med-blue;
-        -o-transition:.2s;
-        -ms-transition:.2s;
-        -moz-transition:.2s;
-        -webkit-transition:.2s;
-        transition:.2s;
-        transform: scale(1.1) translate(0px,3px);
-    }
     .container {
         height: 100vh;
         @include center-col-flex;
@@ -79,13 +78,11 @@ body {
 }
 
 
-
-
-
 .new-section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 
 .about-small {
     margin-top: -50vh;
@@ -119,6 +116,32 @@ body {
 }
 
 
+@media only screen and (max-width:600px){
+    .about-small {
+        .inner {
+            padding: 20px;
+            .right-col {
+                margin-top: 20px;
+            }
+        }
+    }
+    .social-media-bar .social-links .inner {
+        width: 100% !important;
+    }
+}
+
+.btn-primary {
+    background-color: $med-blue;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 2px;
+}
+.btn-primary:hover {
+    background-color: $light-blue;
+    border: none;
+    border-radius: 2px;
+}
+
 .carousel {
     margin-top:100px;
     margin-bottom:100px;
@@ -139,7 +162,7 @@ body {
         }
         h3 {
             font-size: 18px;
-            color: #666978;
+            color: $gray;
         }
     }
     .item {
@@ -202,6 +225,7 @@ body {
     }
 }
 
+
 @media only screen and (max-width:700px){
     .project-carousel .item .img-bg {
         display:none;
@@ -209,16 +233,15 @@ body {
 }
 
 
-
 .social-media-bar{
     padding: 50px;
     margin-top: 30vh;
     margin-bottom: 20vh;
-    background-color: lightblue;
-    border-bottom: 2px solid $med-blue;
-    border-top: 2px solid $med-blue;
+    background-color: $med-blue;
+    border-bottom: 1px solid $gray;
+    border-top: 1px solid $gray;
     color: #fff;
-    text-shadow: 0 0 4px #666978;
+    text-shadow: 0 0 4px #000;
     h1 {
         font-family: $header-font;
     }
@@ -237,7 +260,7 @@ body {
             transition: color 0.4s;
         }
         a:hover {
-            color: #ffd770;
+            color: #ebc463;
             background-color: transparent;
             border: none;
             transition: color 0.4s;
@@ -252,20 +275,19 @@ body {
     background: white;
     position:absolute; bottom: 200px; right:20px;
     border-radius: 3px;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
     color: $med-blue;
     transition: 0.3s;
     display:flex;
     justify-content: center;
     align-items: center;
-    .return-top-a:hover {
-        box-shadow: 0 0 3px white;
-        color: $offwhite-blue;
-    }
+}
+.return-top:hover {
+    color: $light-blue;
 }
 
 .footer {
-    background-color: #666978;
+    background-color: $gray;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -301,41 +323,6 @@ body {
     }
 }
 
-.project-page {
-    background-image: linear-gradient(lightblue, $med-blue);
-    padding-bottom: 100px;
-    .title {
-        width: 100%;
-        height: 50vh;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        h1 {
-            font-family: $header-font;
-            color: white;
-            text-shadow: 0 0 4px $med-blue;
-            font-size: 72px;
-        }
-    }
-    .main {
-        margin: 20px;
-        padding: 20px;
-        background-color: white;
-        box-shadow: 0 2px 2px 0px #666978;
-        .img-container {
-            width: 200px;
-            background-color: $med-blue;
-            height: 200px;
-            margin:10px;
-        }
-        img {
-            width: 180px;
-            background-color: $med-blue;
-            height: 180px;
-            margin: 10px;
-        }
-    }
-}
 
 .page-container {
     padding-top: 100px;
@@ -363,88 +350,4 @@ body {
     }
 }
 
-@media only screen and (max-width:600px){
-    .about-small {
-        .inner {
-            padding: 20px;
-            .right-col {
-                margin-top: 20px;
-            }
-        }
-    }
-}
 
-.jtrack-slides {
-    width: 400px;
-    background-color: $med-blue
-}
-
-.jtrack {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    .jtrack-slide {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        img {
-            width:200px;
-            height:400px;
-        }
-    }
-}
-
-.project-detailed {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    .header {
-        height: 100px;
-        max-width: 100%;
-        overflow: hidden;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    img.header-img {
-        width: auto;
-        height: auto;
-    }
-    p {
-        max-width: 600px;
-    }
-    ul {
-        list-style-type: none;
-    }
-}
-
-.portfolio {
-    img.header-img {
-        margin: -360px 0px 0px 0px;
-    }
-}
-
-.jtrack {
-    img.header-img {
-        margin: -160px 0px 0px 0px;
-    }
-}
-
-.pspprojects {
-    .header {
-        height: 50px;
-        max-width: 100%;
-    }
-    img.header-img.bloguru{
-        margin: -500px 0px 0px 0px;
-    }
-    img.header-img.helpdesk{
-        margin: -400px 0px 0px 0px;
-    }
-    img.header-img.pilot{
-        margin: -360px 0px 0px 0px;
-    }
-}
