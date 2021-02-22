@@ -1,36 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccea2bb5.chunk.css",
-    "main.js": "/static/js/main.99f20445.chunk.js",
-    "main.js.map": "/static/js/main.99f20445.chunk.js.map",
+    "main.css": "/static/css/main.56ebdac2.chunk.css",
+    "main.js": "/static/js/main.582fa42a.chunk.js",
+    "main.js.map": "/static/js/main.582fa42a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.98865184.js",
     "runtime-main.js.map": "/static/js/runtime-main.98865184.js.map",
     "static/css/2.1aecad9b.chunk.css": "/static/css/2.1aecad9b.chunk.css",
-    "static/js/2.9bc422a3.chunk.js": "/static/js/2.9bc422a3.chunk.js",
-    "static/js/2.9bc422a3.chunk.js.map": "/static/js/2.9bc422a3.chunk.js.map",
+    "static/js/2.85249803.chunk.js": "/static/js/2.85249803.chunk.js",
+    "static/js/2.85249803.chunk.js.map": "/static/js/2.85249803.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1aecad9b.chunk.css.map": "/static/css/2.1aecad9b.chunk.css.map",
-    "static/css/main.ccea2bb5.chunk.css.map": "/static/css/main.ccea2bb5.chunk.css.map",
-    "static/js/2.9bc422a3.chunk.js.LICENSE.txt": "/static/js/2.9bc422a3.chunk.js.LICENSE.txt",
+    "static/css/main.56ebdac2.chunk.css.map": "/static/css/main.56ebdac2.chunk.css.map",
+    "static/js/2.85249803.chunk.js.LICENSE.txt": "/static/js/2.85249803.chunk.js.LICENSE.txt",
     "static/media/avel-chuklanov-b1qpD3bhPOc-unsplash.59eb15f3.jpg": "/static/media/avel-chuklanov-b1qpD3bhPOc-unsplash.59eb15f3.jpg",
     "static/media/calendar_screen.7d9f73ad.png": "/static/media/calendar_screen.7d9f73ad.png",
     "static/media/dillon-shook-mY3_bvR74fI-unsplash.baae4dd0.jpg": "/static/media/dillon-shook-mY3_bvR74fI-unsplash.baae4dd0.jpg",
     "static/media/goals_screen.14c812cf.png": "/static/media/goals_screen.14c812cf.png",
     "static/media/graph_screen.2641fa07.png": "/static/media/graph_screen.2641fa07.png",
+    "static/media/main.scss": "/static/media/jakob-owens-WnPZeEbya50-unsplash.ec480a1f.jpg",
     "static/media/julian-hochgesang-Dkn8-zPIbwo-unsplash.597d71f4.jpg": "/static/media/julian-hochgesang-Dkn8-zPIbwo-unsplash.597d71f4.jpg",
     "static/media/magdalena-smolnicka-Y-G8GwcyOss-unsplash.6f458256.jpg": "/static/media/magdalena-smolnicka-Y-G8GwcyOss-unsplash.6f458256.jpg",
     "static/media/options_screen.187cf49e.png": "/static/media/options_screen.187cf49e.png",
     "static/media/portfolio-portrait.aa3c9082.png": "/static/media/portfolio-portrait.aa3c9082.png",
     "static/media/ryan-de-hamer-pCT8ag1o3nU-unsplash.e7a872de.jpg": "/static/media/ryan-de-hamer-pCT8ag1o3nU-unsplash.e7a872de.jpg",
     "static/media/sergey-zolkin-_UeY8aTI6d0-unsplash.3603e755.jpg": "/static/media/sergey-zolkin-_UeY8aTI6d0-unsplash.3603e755.jpg",
-    "static/media/main.scss": "/static/media/sunflower-background.cbd8287a.jpg",
     "static/media/timer_screen.02c3ecab.png": "/static/media/timer_screen.02c3ecab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.98865184.js",
     "static/css/2.1aecad9b.chunk.css",
-    "static/js/2.9bc422a3.chunk.js",
-    "static/css/main.ccea2bb5.chunk.css",
-    "static/js/main.99f20445.chunk.js"
+    "static/js/2.85249803.chunk.js",
+    "static/css/main.56ebdac2.chunk.css",
+    "static/js/main.582fa42a.chunk.js"
   ]
 }
