@@ -10,7 +10,7 @@ import ReturnTopBtn from '../../ReturnTopBtn';
 const Home = () => {
     return(
         <div className="home">
-            <Landing />
+            <Landing/>
             <AboutSmall />
             <ProjectsHome />
             <SocialMediaBar />

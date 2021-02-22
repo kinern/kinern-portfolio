@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, useLocation} from 'react-router-dom';
 
 import HeaderNav from './components/navigation/HeaderNav';
 import Footer from './components/navigation/Footer';
@@ -17,12 +17,14 @@ import PSPProjects from './components/projects/PSPProjects';
 
 import './css/main.scss';
 
-export default class App extends React.Component {
-  
-  render (){
-    return (
-      <div>
-        <HeaderNav />
+const App = () => {
+
+  const location = useLocation();
+  const isHome = (location.pathname === "/home" || location.pathname === "/");
+
+  return (
+    <div>
+        <HeaderNav styleClass={ (isHome)? '' : 'dark'}/>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -51,6 +53,8 @@ export default class App extends React.Component {
         </Switch>
         <Footer />
       </div>
-    );
-  }
-};
+  );
+}
+
+export default App;
+
