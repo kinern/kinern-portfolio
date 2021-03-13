@@ -93,7 +93,7 @@ const ProjectCarousel = () => {
                 perMove: 1,
                 gap    : '1rem',
                 speed   : 1000,
-                height : 400
+                height : '80vh'
             } }
             >
                 {renderProjectCarousel()}

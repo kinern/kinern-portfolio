@@ -16,6 +16,11 @@ html {
 
 body {
     position: relative;
+    background-color: #bfdedd;
+}
+
+.home {
+    background-color: #bfdedd;
 }
 
 
@@ -119,7 +124,6 @@ body {
         display:flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        box-shadow: 0px 0px 5px #000;
     }
     .left-col{
         display:flex;
@@ -177,30 +181,30 @@ body {
 }
 
 .project-carousel {
+    background: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    @media screen and (max-width: 600px) {
+        margin:0;
+    }
     .intro {
         display:flex;
         flex-direction: column;
         align-items: center;
         margin-top: 30vh;
-        margin-bottom: 20vh;
+        padding-top: 40px;
+        margin-bottom: 20px;
         @media screen and (max-width: 600px) {
-            margin-top: 25vh;
             margin-bottom: 5vh;
-            padding: 20px;
+            margin-bottom: 0px;
         }
         text-align: center;
-        h2 {
+        h1 {
+            font-family: $header-font;
             @media screen and (max-width: 600px) {
-                font-size: 1.5em;
+                font-size: 2.5em;
             }
-            font-size:2em;
-        }
-        h3 {
-            @media screen and (max-width: 600px) {
-                font-size: 1em;
-            }
-            font-size: 1.2em;
-            color: $gray;
+            font-size:3em;
         }
     }
     .item {
@@ -210,7 +214,7 @@ body {
         justify-content: space-between;
         height: 100%;
         width: 100%;
-        background-color: lightgray;
+        background-color: white;
         padding: 50px;
         .info {
             height: 300px;
@@ -294,7 +298,17 @@ body {
         margin-bottom: 0;
         margin-top: 15vh;
     }
-    background-color: $med-blue;
+    background-image: url(/images/jakob-owens-WnPZeEbya50-unsplash.jpg);
+    background-image:
+    linear-gradient(
+      to right,
+      rgba(20,20,20,0.7) 30%,
+      rgba(255,255,255,0.6)
+    ),
+    url(/images/jakob-owens-WnPZeEbya50-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
     border-bottom: 1px solid $gray;
     border-top: 1px solid $gray;
     color: #fff;
@@ -397,6 +411,19 @@ body {
 }
 
 .flat-contact {
+    background: white;
+    padding:50px;
+    margin-left: 30px;
+    margin-right:30px;
+    @media screen and (max-width: 600px) {
+        margin: 0;
+        margin-top:15vh;
+        margin-bottom: 15vh;
+        padding: 50px 10px 100px 10px;
+    }
+    h3 {
+        font-family: $header-font;
+    }
     .container{
         max-width:800px;
     }
