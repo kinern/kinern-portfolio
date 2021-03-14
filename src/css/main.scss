@@ -421,11 +421,26 @@ body {
         margin-bottom: 15vh;
         padding: 50px 10px 100px 10px;
     }
-    h3 {
+    h3, .submit-button {
         font-family: $header-font;
+    }
+    .submit-button {
+        padding: 12px 36px 12px 36px;
     }
     .container{
         max-width:800px;
+    }
+    .form-control {
+        padding: 24px;
+        transition: border 0.3s;
+    }
+    @media only screen and (max-width:600px){
+           .col-sm-6 {
+               margin-top: 18px;
+           } 
+    }
+    .form-control:hover {
+        border: 1px solid $light-blue;
     }
 }
 
@@ -434,14 +449,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top:100px;
-    padding-bottom:100px;
-    .main {
-        max-width: 800px;
-    }
-    h1 {
-        font-size: 52px;
-    }
+
 }
 
 
