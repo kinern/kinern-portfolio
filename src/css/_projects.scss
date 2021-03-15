@@ -3,8 +3,8 @@
     margin-bottom:0px;
 }
 
-.projects-page, .project-page {
-    background-image: linear-gradient(lightblue, $med-blue);
+.projects-page, .project-page, .page-container {
+    background-image: linear-gradient($med-blue, #bfdedd);
 }
 
 .project-detailed {
@@ -46,13 +46,26 @@
         linear-gradient(to left, rgba(50,50,50,0.6), rgba(50,50,50,0.6)),
         url(/images/projects/ryan-de-hamer-pCT8ag1o3nU-unsplash.jpg);
     }
+    .title.portfolio {
+        background-image: 
+        linear-gradient(to left, rgba(50,50,50,0.6), rgba(50,50,50,0.6)),
+        url(/images/projects/magdalena-smolnicka-Y-G8GwcyOss-unsplash.jpg);
+    }
     .content {
-        padding: 0 40px 20vh 40px;
+        p ul li{
+            list-style-type: none;
+            padding: 5px 0 5px 0;
+            margin-left: -40px;
+        }
+        padding: 5vh 40px 20vh 40px;
         .project-footer {
+            text-align: center;
+            h4, h3 {
+                color:gray;
+            }
             h4 {
                 font-size: 0.9em;
                 font-weight: 700;
-                color:gray;
             }
         }
         .jtrack-slides-container {

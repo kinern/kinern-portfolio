@@ -2,8 +2,6 @@ import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-import jtrackImg from '../../images/projects/ryan-de-hamer-pCT8ag1o3nU-unsplash.jpg';
-
 import calendarImg from '../../images/projects/jtrack/calendar_screen.png';
 import graphImg from '../../images/projects/jtrack/graph_screen.png';
 import timerImg from '../../images/projects/jtrack/timer_screen.png';
@@ -37,7 +35,6 @@ const JTrack = () => {
                 <div className="title jtrack">
                     <h1>JTrack</h1>
                 </div>
-                <hr />
                 <div className="content">
                     <p>
                         <strong>JTrack</strong> is a mobile application for tracking daily workout routines.

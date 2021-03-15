@@ -88,7 +88,7 @@ const ProjectsHome = () => {
     }
 
     return(
-        <div className="project-carousel project-squares-container">
+        <div className="project-squares-container">
             <h1>Case Studies</h1>
             <div className="squares">
                 {renderSquareButtons(leftColSquaresData)}

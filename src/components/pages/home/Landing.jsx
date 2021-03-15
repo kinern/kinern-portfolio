@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Icon from '@mdi/react'
-import { mdiArrowDownBoldOutline } from '@mdi/js';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

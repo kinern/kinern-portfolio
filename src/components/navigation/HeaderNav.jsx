@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-export default ({styleClass}) => {
+const HeaderNav = ({styleClass}) => {
     return (
         <nav className={`top-nav ${styleClass}`}>
             <Link to="/home">About</Link>
@@ -10,3 +10,5 @@ export default ({styleClass}) => {
         </nav>
     );
 }
+
+export default HeaderNav;

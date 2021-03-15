@@ -10,7 +10,6 @@ import Projects from './components/pages/projects/Projects';
 import About from './components/pages/about/About';
 import Contact from './components/pages/contact/Contact';
 
-import ProjectPage from './components/projects/ProjectPage';
 import JTrack from './components/projects/JTrack';
 import Portfolio from './components/projects/Portfolio';
 import PSPProjects from './components/projects/PSPProjects';

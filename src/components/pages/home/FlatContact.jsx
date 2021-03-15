@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SocialLinks from '../../SocialLinks';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

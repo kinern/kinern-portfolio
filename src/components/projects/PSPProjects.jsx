@@ -1,10 +1,5 @@
 import React from 'react';
 
-import pilotImg from '../../images/projects/avel-chuklanov-b1qpD3bhPOc-unsplash.jpg';
-import helpdeskImg from '../../images/projects/julian-hochgesang-Dkn8-zPIbwo-unsplash.jpg';
-import bloguruImg from '../../images/projects/dillon-shook-mY3_bvR74fI-unsplash.jpg';
-
-
 const PSPProjects = () => {
 
 
@@ -14,7 +9,6 @@ const PSPProjects = () => {
                 <div className="title bloguru">
                     <h1>Bloguru</h1>
                 </div>
-                <hr />
                 <div className="content">
                     <p>
                         <strong>Bloguru</strong> is a long-established bilingual blogging website for 
@@ -49,7 +43,6 @@ const PSPProjects = () => {
                 <div className="title helpdesk">
                     <h1>Helpdesk</h1>
                 </div>
-                <hr />
                 <div className="content">
                     <p>
                         <strong>Helpdesk</strong> is an online email client specifically 
@@ -75,7 +68,6 @@ const PSPProjects = () => {
                 <div className="title psp-pilot">
                     <h1>PSP Pilot</h1>
                 </div>
-                <hr />
                 <div className="content">
                     <p>
                         <strong>PSP Pilot</strong> is a CRM tool for small businesses.
