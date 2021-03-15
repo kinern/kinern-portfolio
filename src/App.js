@@ -22,7 +22,7 @@ const App = () => {
   const isHome = (location.pathname === "/home" || location.pathname === "/");
 
   return (
-    <div>
+      <div>
         <HeaderNav styleClass={ (isHome)? '' : 'dark'}/>
         <Switch>
           <Route exact path="/">

@@ -20,7 +20,7 @@ const ProjectsHome = () => {
         {
             class:"jtrack-square",
             title: "JTrack", 
-            description:"Streamlined Mobile App For Tracking Workouts", 
+            description:"Streamlined App For Tracking Workouts", 
             link:"/jtrack", 
             longDescription: `
             Mobile application to track workout sessions each month. 
