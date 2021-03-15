@@ -74,7 +74,7 @@ const ProjectsHome = () => {
                         <div className="inner">
                             <h1>{item.title}</h1>
                             <h2>{item.description}</h2>
-                            <Link to={item.link}>Learn more <Icon path={mdiArrowRight} size={0.9}/></Link>
+                            <div class="learn-more"><Icon path={mdiArrowRight} size={0.7}/><p>Learn more</p></div>
                         </div>
                     </Link>
                 </div>

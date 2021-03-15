@@ -238,7 +238,7 @@ body {
                 justify-content: center;
                 align-items: flex-start;
                 min-height: 50vh;
-                h1, h2, h3, a {
+                h1, h2, h3, .learn-more {
                     color: white;
                     text-shadow: 0 0 4px black;
                 }
@@ -250,9 +250,16 @@ body {
                     font-family: $sub-font;
                     font-weight: 300;
                 }
-                a {
-                    font-size: 0.8em;
+                .learn-more {
+                    display:flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
                     text-decoration: none;
+                    p {
+                        font-size: 0.9em;
+                        margin:0 0 0 5px;
+                    }
                 }
             }
             ::before {
@@ -312,11 +319,9 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
 
 .social-media-bar{
     padding: 50px;
-    margin-top: 30vh;
-    margin-bottom: 20vh;
+    margin: 30vh  0 20vh 0;
     @media only screen and (max-width:600px){
-        margin-bottom: 0;
-        margin-top: 15vh;
+        margin: 15vh 0 0 0;
     }
     background-image: url(/images/jakob-owens-WnPZeEbya50-unsplash.jpg);
     background-image:
@@ -338,33 +343,36 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
             font-size: 2.4em
         }
         font-family: $header-font;
-        font-size: 3em;
+        font-size: 2.8em;
     }
     h4 {
         @media only screen and (max-width:600px){
             font-size: 1.2em
         }
-        font-size: 1.6em;
+        font-family: $sub-font;
+        font-weight: 300;
+        font-size: 1.4em;
     }
     .social-links {
         .inner {
-            display:flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            width: 360px;
+            .btn {
+                margin: 10px 50px 0 0;
+                padding: 0;
+            }
         }
         a {
-            color: #fffa94;
+            color: #d8be7d;
             background-color: transparent;
             text-shadow: 0 0 2px #000;
             border: none;
-            transition: color 0.4s;
+            transition: color 0.2s, text-shadow 0.2s, ease-in-out 0.2s;
         }
         a:hover {
-            color: #ebc463;
+            color: #fcda85;
             background-color: transparent;
+            text-shadow: 0 0 4px $dark-blue;
             border: none;
-            transition: color 0.4s;
+            transform: scale(1.2);
         }
     }
 }
