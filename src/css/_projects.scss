@@ -10,11 +10,18 @@
 .project-detailed {
     margin: 0 30px 0 30px;
     background-color: white;
+    @media only screen and (max-width:600px){
+        margin: 0;
+    }
+
     .title {
         width: 100%;
         padding: 20vh;
         background-size:cover;
         background-position: center;
+        @media only screen and (max-width:600px){
+            padding:20vh 0 20vh 0;
+        }
         h1 {
             text-align: center;
             font-size: 5em;
@@ -67,12 +74,10 @@
                 font-size: 0.9em;
                 font-weight: 700;
             }
-        }
-        .jtrack-slides-container {
-            width:100%;
-            display:flex;
-            justify-content:center;
-        }
+        }  
+    }
+    .jtrack-slides-container {
+        padding-bottom: 10vh;
     }
 }
 

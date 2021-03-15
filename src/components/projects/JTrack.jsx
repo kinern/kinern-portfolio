@@ -51,21 +51,21 @@ const JTrack = () => {
                             <li>Bright layout with colorful icons</li>
                         </ul>
                     </p>
-                    <div className="jtrack-slides-container">
-                        <div className="jtrack-slides">
-                            <Splide
-                            options={ {
-                                rewind : true,
-                                perPage: 1,
-                                perMove: 1,
-                                gap    : '1rem',
-                                speed   : 1000,
-                                height : 480
-                            } }
-                            >
-                                {renderSlides()}
-                            </Splide>
-                        </div>
+                </div>
+                <div className="jtrack-slides-container">
+                    <div className="jtrack-slides">
+                        <Splide
+                        options={ {
+                            rewind : true,
+                            perPage: 1,
+                            perMove: 1,
+                            gap    : '1rem',
+                            speed   : 500,
+                            height : '80vh'
+                        } }
+                        >
+                            {renderSlides()}
+                        </Splide>
                     </div>
                 </div>
             </div>
