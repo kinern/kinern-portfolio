@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-
-import ProjectCarousel from '../projects/ProjectsCarousel';
+import ProjectsHome from '../home/ProjectsHome';
 
 class Projects extends Component {
 
     render() { 
         return ( 
-            <div className="page-container">
-                <div className="project-carousel">
-                    <ProjectCarousel />
-                </div> 
+            <div className="page-container projects-page">
+                <ProjectsHome/>
             </div>
         );
     }

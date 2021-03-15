@@ -42,13 +42,13 @@ const App = () => {
             <Contact />
           </Route>
           <Route path="/jtrack">
-            <ProjectPage title={'JTrack'}><JTrack /></ProjectPage>
+            <JTrack />
           </Route>
           <Route path="/portfolio">
-            <ProjectPage title={'Portfolio'}><Portfolio /></ProjectPage>
+            <Portfolio />
           </Route>
           <Route path="/pspprojects">
-            <ProjectPage title={'PSP Projects'}><PSPProjects /></ProjectPage>
+            <PSPProjects />
           </Route>
         </Switch>
         <Footer />

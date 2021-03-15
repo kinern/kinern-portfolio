@@ -32,40 +32,44 @@ const JTrack = () => {
     }
 
     return(
-        <div className="jtrack project-detailed">
-            <div className="header">
-                <img className="header-img" src={jtrackImg} alt="Portfolio Header"/>
-            </div>
-            <p>
-                <strong>JTrack</strong> is a mobile application for tracking daily workout routines.
-                It includes a monthly calendar with the ability to add in minutes of exercise.
-                There is a statistics page for visually showing the progress being made.
-                Originally, it was created as a way to manage daily jump rope routines, 
-                hence the "J" in the name.
-                <br />
-                <br />
-                <strong>Features</strong>
-                <ul>
-                    <li>Implements Jerry Seinfeld's "Don't Break The Chain" method</li> 
-                    <li>Displays local weather using OpenWeatherMap API</li>
-                    <li>Generates graph of recorded exercises on Statistics screen</li>
-                    <li>Bright layout with colorful icons</li>
-                </ul>
-            </p>
-            <div>
-                <div className="jtrack-slides">
-                    <Splide
-                    options={ {
-                        rewind : true,
-                        perPage: 1,
-                        perMove: 1,
-                        gap    : '1rem',
-                        speed   : 1000,
-                        height : 480
-                    } }
-                    >
-                        {renderSlides()}
-                    </Splide>
+        <div className="page-container">
+            <div className="jtrack project-detailed">
+                <div className="title jtrack">
+                    <h1>JTrack</h1>
+                </div>
+                <hr />
+                <div className="content">
+                    <p>
+                        <strong>JTrack</strong> is a mobile application for tracking daily workout routines.
+                        It includes a monthly calendar with the ability to add in minutes of exercise.
+                        There is a statistics page for visually showing the progress being made.
+                        Originally, it was created as a way to manage daily jump rope routines, 
+                        hence the "J" in the name.
+                        <br />
+                        <br />
+                        <ul>
+                            <li>Implements Jerry Seinfeld's "Don't Break The Chain" method</li> 
+                            <li>Displays local weather using OpenWeatherMap API</li>
+                            <li>Generates graph of recorded exercises on Statistics screen</li>
+                            <li>Bright layout with colorful icons</li>
+                        </ul>
+                    </p>
+                    <div className="jtrack-slides-container">
+                        <div className="jtrack-slides">
+                            <Splide
+                            options={ {
+                                rewind : true,
+                                perPage: 1,
+                                perMove: 1,
+                                gap    : '1rem',
+                                speed   : 1000,
+                                height : 480
+                            } }
+                            >
+                                {renderSlides()}
+                            </Splide>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
