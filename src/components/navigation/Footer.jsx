@@ -9,8 +9,11 @@ class Footer extends Component {
             <div>     
                 <div className="footer">
                     <div className="right-col">
+                        <h3>Natalie Kiner</h3>
+                        <div className="footer-underline"></div>
+                        <p>Portfolio Created by Natalie Kiner © 2020</p>
                         <p>Stock images from <a href="https://www.unsplash.com" >Upsplash</a></p>
-                        <p>Portfolio © 2020 Natalie Kiner</p>
+                        <p>Hosted with <a href="https://github.com">GitPages</a></p>
                     </div>
                     <div className="left-col">
                         <div className="footer-list">

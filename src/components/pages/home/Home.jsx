@@ -5,7 +5,6 @@ import AboutSmall from './AboutSmall';
 import ProjectsHome from './ProjectsHome';
 import SocialMediaBar from './SocialMediaBar';
 import FlatContact from './FlatContact';
-import ReturnTopBtn from '../../ReturnTopBtn';
 
 const Home = () => {
     return(
@@ -15,7 +14,6 @@ const Home = () => {
             <ProjectsHome />
             <SocialMediaBar />
             <FlatContact />
-            <ReturnTopBtn />
         </div>
     );
 }
