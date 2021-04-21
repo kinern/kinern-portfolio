@@ -47,32 +47,137 @@ body {
     background-size: cover;
     .container {
         height: 100vh;
-        @include center-col-flex;
-    }
-    h1 {
+        margin: 0;
+        padding:  0;
         @media screen and (max-width: 600px) {
-            font-size: 3em;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-        font-family: $header-font;
-        font-size: 5em;
+        h1.name {
+            position: absolute;
+            margin: 0;
+            padding: 20px 0 0 13px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size: 15vh;
+            @media screen and (max-width: 600px) {
+                position: relative;
+                margin: 0 0 30px 0;
+                padding: 0 0 0 0;
+                font-size: 3em;
+                writing-mode: horizontal-tb;
+            }
+            font-family: $header-font;
+            white-space: nowrap;
+        }
+        h1.title-and{
+            @media screen and (max-width: 600px) {
+                position:relative;
+                top: 0;
+                left: 0;
+                font-size: 2em;
+                margin: -10px 0 0 0;
+                padding:0;
+                color:white;
+            }
+            position: absolute;
+            top: 0vh;
+            left: 20vh;
+            font-size: 14em;
+            color: $light-blue;
+            text-shadow: 0 0 2px black;
+        }
+        h4.title-software {
+            @media screen and (max-width: 600px) {
+                position:relative;
+                top: 0;
+                left: 0;
+            }
+            position:absolute;
+            top: 15vh;
+            left: 37vh;
+            z-index: 100;
+        }
+        h4.title-illustrator {
+            @media screen and (max-width: 600px) {
+                position:relative;
+                top: 0;
+                left: 0;
+            }
+            position: absolute;
+            top: 25vh;
+            left: 37vh;
+        }
     }
+    .about-me-box {
+        @media screen and (max-width: 600px) {
+            display:none;
+        }
+        position: absolute;
+        top: 60vh;
+        right: 30px;
+        background-color: white;
+        min-width: 300px;
+        min-height: 60vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .about-link { 
+            margin-top: 30px;
+            padding: 10px 40px 10px 40px;
+            color: $med-blue;
+            transition: background-color 0.3s;
+            a {
+                position: relative;
+                text-decoration: none;
+            }
+            a:hover {
+                color: $med-blue;
+            }
+            h5 {
+                font-size:1.5em;
+                font-weight: 400;
+            }
+            z-index: 10;
+            text-shadow: none;
+            .down-arrows {
+                display:flex;
+                justify-content: center;
+            }
+        }
+        .about-link:hover {
+            background-color:#bfdedd;
+        }
+    }
+
     h4 {
         @media screen and (max-width: 600px) {
             font-size: 1.5em;
             font-weight: 400;
         }
-        font-size: 2em;
+        font-size: 3em;
         font-family: $sub-font;
         font-weight: 300;
+        text-shadow: 0 0 3px black;
+        white-space: nowrap;
     }
 }
 
 .top-nav {
+    @media screen and (max-width: 600px) {
+        justify-items: center;
+        justify-content: center;
+        padding-right: 0;
+    }
     position: absolute;
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
+    padding-right: 30px;
     font-size: 14px;
     z-index: 9999;
     .link {
@@ -85,6 +190,9 @@ body {
             z-index: 10;
             transition: color 0.4s, text-shadow 0.4s;
             text-shadow: 0px 0px 4px black;
+            display:flex;
+            justify-content: center;
+            text-align: center;
         }
         a:hover{
             position: relative;

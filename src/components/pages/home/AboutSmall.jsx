@@ -5,7 +5,7 @@ import portraitImage from '../../../images/portfolio-portrait.png';
 
 const AboutSmall = () => {
     return(
-        <div className="about-small">
+        <div className="about-small" id="about">
             <Parallax>
             <div className="inner">
                 <div className="left-col">
