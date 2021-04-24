@@ -32,7 +32,9 @@ class Landing extends Component {
                         <h4 className="title-illustrator" data-aos="fade-right">ILLUSTRATOR</h4>
                     </div>  
                 </Parallax>   
-                <div className="about-me-box">
+                
+                <div className="welcome-box">
+                <div className='wave-top'></div>
                     <div className="about-link">
                         <a href="#about">
                             <h5>WELCOME</h5>

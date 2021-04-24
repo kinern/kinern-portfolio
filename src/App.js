@@ -6,7 +6,7 @@ import HeaderNav from './components/navigation/HeaderNav';
 import Footer from './components/navigation/Footer';
 
 import Home from './components/pages/home/Home';
-import Projects from './components/pages/projects/Projects';
+import ProjectsPage from './components/pages/projects/ProjectsPage';
 import About from './components/pages/about/About';
 import Contact from './components/pages/contact/Contact';
 
@@ -23,6 +23,7 @@ const App = () => {
 
   return (
       <div>
+        <div className="top-colorline"></div>
         <HeaderNav styleClass={ (isHome)? '' : 'dark'}/>
         <Switch>
           <Route exact path="/">
@@ -35,7 +36,7 @@ const App = () => {
             <About />
           </Route>
           <Route path="/projects">
-            <Projects />
+            <ProjectsPage />
           </Route>
           <Route path="/contact">
             <Contact />
