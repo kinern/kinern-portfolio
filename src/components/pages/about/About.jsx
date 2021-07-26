@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import portraitImage from '../../../images/portfolio-portrait.png';
+import portraitImage from '../../../images/portfolio-portrait.svg';
 
 class About extends Component {
     state = { }

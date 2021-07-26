@@ -10,25 +10,32 @@ const PSPProjects = () => {
                     <h1>Bloguru</h1>
                 </div>
                 <div className="content">
-                    <p>
-                        <strong>Bloguru</strong> is a long-established bilingual blogging website for 
-                        English & Japanese speakers.
+                        <p><strong>Bloguru</strong> is a long-established bilingual blogging website for 
+                        English & Japanese speakers. </p>
                         <br />
                         <br />
-                        <strong>Back-End Development</strong>
-                        <ul>
-                            <li>Video Upload And Management</li>
-                            <li>Custom Themes 2.0</li>
-                        </ul>
-                        <strong>Additional Features</strong>
-                        <ul>
-                            <li>Blog Post Aggregator</li>
-                            <li>Email Notifications</li>
-                            <li>Generating Posts Via Email</li>
-                            <li>Sharing On Social Media</li>
-                        </ul>
+                        <h3>My Contiutions To Bloguru</h3>
+                        <h4>Video Manager</h4>
+                        <p> 
+                            One of the highlights of Bloguru is the user video management tool, located within the member interface.
+                            For this feature, I designed and implemented a backend system for formatting, storing, and retrieving video data and information. 
+                            This was one of the larger projects that I was the main developer for. Along with the main storage system, there was a number of extra parts that went into building this feature. 
+                            These include: Automated thumbnail generation for uploaded videos, hotlinking preventon, integration with Twitter and Facebook APIs for blog posting.
+                        </p>
+                        <h4>Notifications, Emails and Social Media</h4>
+                        <p>
+                            I maintained and updated automated scripts for emails and notifications for various conditions, such as blog inactivity and the blog daily ranking system.
+                            Furthermore, I revamped the API regarding users linking their social media accounts and automatically adding new posts to their user feeds.
+                        </p>
+                        <h4>Custom Themes</h4>
+                        <p>
+                            Users of Bloguru have a vast variety of colorful and novel themes to pick from. 
+                            There is also the option of building one's own custom theme to create a unique design.
+                            One of the projects our team had was to modernize the custom theme generator, including new areas that could be colored, dropdown menus, and new header image placement. 
+                            I worked closeley with a front end design and developer to update this tool.
+                            My work included handling saved theme data as well as refactoring the theme generator interface functionality.
+                        </p>
                         <br />
-                    </p>
                     <div className="project-footer">
                         <h4> Helpdesk is a product of Pacific Software Publishing Inc. </h4>
                     </div>
@@ -51,8 +58,23 @@ const PSPProjects = () => {
                         Email threads are kept track of and displayed in an organized fashion.
                         New clients can be added on Helpdesk, which then get generated 
                         on PSP Pilot automatically. 
-                        <br />
-                        <br />
+                    </p>
+                    <br />
+                    <br />
+
+
+                    <h3>Highlights</h3>
+                    <h4>Online Email Client</h4>
+                    <p>
+                        Helpdesk is an online email client that enhances the user experience for customer support teams. 
+                        I was the lead developer in implementing the backend structure and email system.
+                    </p>
+                    <h4>PSP Pilot Integration</h4>
+                    <p>
+                        There were several aspects to connecting Helpdesk to PSP Pilot. 
+                        These included retieving and automatically adding new client and customer information to PSP Pilot,  
+                        displaying message threads on PSP Pilot's client and customer modules, retriving saved user 
+                        information for sending reply messages.
                     </p>
                     <div className="project-footer">
                         <h4> Helpdesk is a product of Pacific Software Publishing Inc. </h4>

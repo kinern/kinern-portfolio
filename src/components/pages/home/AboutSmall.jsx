@@ -1,7 +1,7 @@
 import React from 'react';
 import {Parallax} from 'react-scroll-parallax';
 
-import portraitImage from '../../../images/portfolio-portrait.png';
+import portraitImage from '../../../images/portfolio-portrait.svg';
 
 const AboutSmall = () => {
     return(
@@ -10,7 +10,7 @@ const AboutSmall = () => {
             <div className="inner">
                 <div className="left-col">
                     <h1>Hello!</h1>
-                    <img src={portraitImage} height="300" alt="a" />
+                    <object data={portraitImage} height="400"></object>
                 </div>
                 <div className="right-col">
                     <p>
