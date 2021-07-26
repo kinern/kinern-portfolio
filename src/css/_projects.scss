@@ -20,6 +20,7 @@
     background: white;
 }
 
+
 .projects-page-title {
     background-color: white;
     padding: 0 0 10vh 0;
@@ -29,6 +30,19 @@
         color: $dark-blue;
         margin: 0 0 0 10px;
         padding: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .projects-bottom, .projects-top {
+        margin: 0;
+    }
+    .projects-page-title {
+        h1 {
+            font-size: 2.8em;
+            text-align: center;
+            padding-top: 10px;
+        }
     }
 }
 

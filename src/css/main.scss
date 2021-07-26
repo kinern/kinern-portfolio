@@ -626,14 +626,6 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
     background: white;
 }
 
-@media only screen and (max-width:600px){
-    .contact-outer .flat-contact {
-        margin:0;
-    }
-    .flat-contact h3 {
-        text-align:center;
-    }
-}
 
 
 .flat-contact {
@@ -686,17 +678,23 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
 }
 
 @media screen and (max-width: 600px) {
-    .contact-outer {
-        margin-top: 20vh;
-    }
-    .contact-top, .contact-bottom { 
-        display:none;
-    } 
-    .flat-contact {
+    .contact .contact-outer {
         margin: 20vh 0 20vh 0;
-        padding: 100px 10px 100px 10px;
+    }
+    .contact-top { 
+        margin: 0 0 0 0;
+    } 
+    .contact-bottom {
+        margin: 0 0 10vh 0;
+    }
+    .flat-contact {
+        margin:0;
+        padding: 10px 10px 20px 10px;
         .container h3 {
+            font-size: 2.4em;
             text-align: center;
+            margin:0 0 20px 0;
+            padding:0;
         }
     }
 }
