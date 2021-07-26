@@ -23,6 +23,7 @@ class FlatContact extends Component {
                         <p>
                             If you have inquiries or would like to know more about my work, 
                             feel free to send me a message below! 
+                            <br />
                             I can also be contacted through any of my social media profiles. 
                         </p>
                     </div>
