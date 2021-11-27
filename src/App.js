@@ -2,17 +2,9 @@ import React from 'react';
 
 import {Switch, Route, useLocation} from 'react-router-dom';
 
-import HeaderNav from './components/navigation/HeaderNav';
-import Footer from './components/navigation/Footer';
-
-import Home from './components/pages/home/Home';
-import ProjectsPage from './components/pages/projects/ProjectsPage';
-import About from './components/pages/about/About';
-import Contact from './components/pages/contact/Contact';
-
-import JTrack from './components/projects/JTrack';
-import Portfolio from './components/projects/Portfolio';
-import PSPProjects from './components/projects/PSPProjects';
+import {Footer, Header} from './components/navigation';
+import {Home, ProjectsPage, About, Contact} from './components/pages';
+import {JTrack, Portfolio, PSPProjects} from './components/projects/index';
 
 import './css/main.scss';
 
@@ -24,7 +16,7 @@ const App = () => {
   return (
       <div>
         <div className="top-colorline"></div>
-        <HeaderNav styleClass={ (isHome)? '' : 'dark'}/>
+        <Header styleClass={ (isHome)? '' : 'dark'}/>
         
         <Switch>
           <Route exact path="/">
