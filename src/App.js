@@ -25,6 +25,7 @@ const App = () => {
       <div>
         <div className="top-colorline"></div>
         <HeaderNav styleClass={ (isHome)? '' : 'dark'}/>
+        
         <Switch>
           <Route exact path="/">
             <Home />
@@ -51,6 +52,7 @@ const App = () => {
             <PSPProjects />
           </Route>
         </Switch>
+        
         <Footer />
       </div>
   );

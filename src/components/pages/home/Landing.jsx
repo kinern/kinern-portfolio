@@ -4,8 +4,8 @@ import { Parallax } from 'react-scroll-parallax';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import { mdiArrowDown } from '@mdi/js';
-import Icon from '@mdi/react';
+//import { mdiArrowDown } from '@mdi/js';
+//import Icon from '@mdi/react';
 
 
 class Landing extends Component {
@@ -38,11 +38,13 @@ class Landing extends Component {
                     <div className="about-link">
                         <a href="#about">
                             <h5>WELCOME</h5>
-                            <div className="down-arrows">
-                                <Icon path={mdiArrowDown} size={1}/>
-                                <Icon path={mdiArrowDown} size={1}/>
-                                <Icon path={mdiArrowDown} size={1}/>
-                            </div>
+                            {/*
+                                <div className="down-arrows">
+                                    <Icon path={mdiArrowDown} size={1}/>
+                                    <Icon path={mdiArrowDown} size={1}/>
+                                    <Icon path={mdiArrowDown} size={1}/>
+                                </div>
+                            */}
                         </a>
                     </div>
                 </div>    

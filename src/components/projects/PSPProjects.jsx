@@ -1,5 +1,7 @@
 import React from 'react';
 
+import pilotWheel from '../../images/projects/pilotWheel.svg';
+
 const PSPProjects = () => {
 
 
@@ -89,30 +91,44 @@ const PSPProjects = () => {
             <React.Fragment>
                 <div className="title psp-pilot">
                     <h1>PSP Pilot</h1>
+                    <h3>Customer Relation Management</h3>
                 </div>
                 <div className="content">
-                    <p>
-                        <strong>PSP Pilot</strong> is a CRM tool for small businesses.
-                        Employee, client and project tracking are all combined within the application.
-                        I was a lead developer in the creation of PSP Pilot, 
-                        and had an essential role in the back-end development of the product.
-                        <br />
-                        <br />
-                        Additional services for PSP Pilot include Feedback and Help Desk.
-                        <br />
-                        <br />
-                        <strong>Feedback</strong> is a survey generating tool that connects to the client section of PSP Pilot.
-                        As a team member for Feedback, my role included updating the survey 
-                        retrieval and display system, improving overall performance.
-                        <br />
-                        <br />
-                        <strong>Help Desk</strong> is an online email tool that allows support teams to 
-                        quickly handle requests and record email threads into PSP Pilot.
-                        I played a major role in the creation and development for this project. 
-                        More information can be found in the next project section.
-                        <br />
-                        <br />
-                    </p>
+                    <div style={{height: "90vh"}}>
+                    <object data={pilotWheel} height="100%"></object>
+                    </div>
+                    
+                        <div>
+                        <p>YEAR</p>
+                        <h6>2016 - 2019</h6>
+                        </div>
+                        
+                        <div>
+                        <p>Deliverables</p>
+                        <p>
+                            <ul>
+                            <li>Backend Development</li>
+                            <li>Database Architecture</li>
+                            <li>UX Implementation</li>
+                            <li>API Development</li>
+                            </ul>
+                        </p>
+                        </div>
+                    
+                        <p>
+                        <strong>PSP Pilot is a collection of tools for small businesses to use within in a centralized location.
+                        Instead of switching between different applications for things like scheduling meetings and assigning work to employees, 
+                        PSP Pilot makes it easier to complete everyday tasks.</strong></p>
+
+                    <div style={{display:"flex"}}>
+                        <h3>Goals</h3>
+                        <p>
+                        I was a lead developer for the creation and feature development for PSP Pilot.
+                        </p>
+                    </div>
+                    <div>
+                        {/* What parts I worked on/happy with */}
+                    </div>
                     <div className="project-footer">
                         <h4> PSP Pilot is a product of Pacific Software Publishing Inc. </h4>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+/*
 import { 
     faRunning, 
     faLaptopCode, 
@@ -7,7 +8,7 @@ import {
     faLaptop, 
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+*/
 
 const projectData = [
     {
@@ -30,7 +31,7 @@ const projectData = [
                 <li>Bright layout with colorful icons</li>
             </ul>
         </div>,
-        icon : <FontAwesomeIcon icon={faRunning} />,
+        icon : /*<FontAwesomeIcon icon={faRunning} />*/ null,
         tags: ['React Native', 'Javascript', 'SQLite', 'Android', 'HTML5', 'CSS3'],
         url: 'https://kinern.github.io/jtrack',
         repo: 'https://github.com/kinern/jtrack',
@@ -53,7 +54,7 @@ const projectData = [
             </p>
         </div>
         ,
-        icon : <FontAwesomeIcon icon={faLaptopCode} />,
+        icon : /*<FontAwesomeIcon icon={faLaptopCode} />*/ null,
         tags: ['ReactJS', 'Javascript', 'Bootstrap', 'HTML5', 'CSS3'],
         url: null,
         repo: 'https://github.com/kinern/kinern-portfolio',
@@ -90,7 +91,7 @@ const projectData = [
         </div>
         ,
         tags: [],
-        icon: <FontAwesomeIcon icon={faPaperPlane} />,
+        icon: /*<FontAwesomeIcon icon={faPaperPlane} />*/ null,
         url: "https://pilot.pspinc.com",
         repo: null,
         headerImage: ''
@@ -113,7 +114,7 @@ const projectData = [
             </p>
         </div>,
         tags: [],
-        icon:  <FontAwesomeIcon icon={faEnvelope} />,
+        icon:  /*<FontAwesomeIcon icon={faEnvelope} />*/ null,
         url: "https://pilot.pspinc.com/helpdesk",
         repo: null,
         headerImage: ''
@@ -147,7 +148,7 @@ const projectData = [
             </p>
         </div>,
         tags: [],
-        icon:  <FontAwesomeIcon icon={faLaptop} />,
+        icon:  /*<FontAwesomeIcon icon={faLaptop} />*/ null,
         url: "https://www.bloguru.com",
         repo: null,
         headerImage: ''

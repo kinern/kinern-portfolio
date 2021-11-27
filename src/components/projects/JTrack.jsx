@@ -1,6 +1,9 @@
 import React from 'react';
+
+/*
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+*/
 
 import calendarImg from '../../images/projects/jtrack/calendar_screen.png';
 import graphImg from '../../images/projects/jtrack/graph_screen.png';
@@ -22,9 +25,13 @@ const JTrack = () => {
     const renderSlides = () => {
         return slideImgs.map((item)=>{
             return (
-                <SplideSlide className="jtrack-slide">
+                <div>
+                {/*
+                    <SplideSlide className="jtrack-slide">
                     <img src={item.img} alt={item.alt} />
                 </SplideSlide>
+                */}
+                </div>  
             );
         });
     }
@@ -54,6 +61,7 @@ const JTrack = () => {
                 </div>
                 <div className="jtrack-slides-container">
                     <div className="jtrack-slides">
+                        {/* 
                         <Splide
                         options={ {
                             rewind : true,
@@ -66,6 +74,7 @@ const JTrack = () => {
                         >
                             {renderSlides()}
                         </Splide>
+                        */}
                     </div>
                 </div>
             </div>

@@ -1,13 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link as RouterLink } from 'react-router-dom';
+import {AppBar, Toolbar, Link} from '@mui/material';
 
-const HeaderNav = ({styleClass}) => {
+const HeaderNav = () => {
     return (
-        <nav className="top-nav">
-            <div className="link"><Link to="/home">About</Link></div>
-            <div className="link"><Link to="/projects">Projects</Link></div>
-            <div className="link"><Link to="/contact">Contact</Link></div>
-        </nav>
+        <AppBar 
+        style={{ background: 'transparent', boxShadow: 'none'}}
+        position="absolute"
+        className="top-nav">
+            <Toolbar variant="dense" className="links">
+                <Link component={RouterLink} to="/home">About</Link>
+                <Link component={RouterLink} to="/projects">Projects</Link>
+                <Link component={RouterLink} to="/contact">Contact</Link>
+            </Toolbar>
+        </AppBar>
     );
 }
 
