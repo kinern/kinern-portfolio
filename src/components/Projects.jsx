@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-//import { mdiArrowRight } from '@mdi/js';
-//import Icon from '@mdi/react';
+
+import {Typography} from '@mui/material';
+import EastIcon from '@mui/icons-material/East';
 
 const leftColSquaresData = [
     {
@@ -71,9 +72,9 @@ const renderSquareButtons = (projectData) => {
                     <div className="inner">
                         <h1>{item.title}</h1>
                         <h2>{item.description}</h2>
-                        {/*
-                         <div className="learn-more"><Icon path={mdiArrowRight} size={0.7}/><p>Learn more</p></div>
-                         */}
+                        <div className="learn-more">
+                            <EastIcon size={0.7}/><Typography>Learn more</Typography>
+                        </div>
                     </div>
                 </Link>
             </div>

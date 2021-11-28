@@ -4,8 +4,8 @@ import { Parallax } from 'react-scroll-parallax';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-//import { mdiArrowDown } from '@mdi/js';
-//import Icon from '@mdi/react';
+import {Typography} from '@mui/material'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 
 class Landing extends Component {
@@ -26,28 +26,26 @@ class Landing extends Component {
             <div className="fluid-container landing" id="top">
                 <Parallax y={[-50, 50]}>
                     <div className="container">
-                        <h1 className="text-center name" data-aos="fade-up">NATALIE KINER</h1>
-                        <h4 className="title-software" data-aos="fade-right">SOFTWARE ENGINEER</h4> 
-                        <h1 className="title-and" data-aos="fade-left">&</h1>
-                        <h4 className="title-illustrator" data-aos="fade-right">ILLUSTRATOR</h4>
+                        <Typography variant="h1" className="text-center name" data-aos="fade-up">NATALIE KINER</Typography>
+                        <Typography variant="h4" className="title-software" data-aos="fade-right">SOFTWARE ENGINEER</Typography> 
+                        <Typography variant="h1" className="title-and" data-aos="fade-left">&</Typography>
+                        <Typography variant="h4" className="title-illustrator" data-aos="fade-right">ILLUSTRATOR</Typography>
                     </div>  
                 </Parallax>   
                 
-                <div className="welcome-box">
-                <div className='wave-top'></div>
-                    <div className="about-link">
-                        <a href="#about">
-                            <h5>WELCOME</h5>
-                            {/*
-                                <div className="down-arrows">
-                                    <Icon path={mdiArrowDown} size={1}/>
-                                    <Icon path={mdiArrowDown} size={1}/>
-                                    <Icon path={mdiArrowDown} size={1}/>
-                                </div>
-                            */}
-                        </a>
-                    </div>
-                </div>    
+                <a href="#about">
+                    <div className="welcome-box">
+                        <div className='wave-top'></div>
+                        <div className="about-link">
+                            <Typography variant="h5">WELCOME</Typography>
+                            <div className="down-arrows">
+                                <ArrowDownwardIcon color="primary" size={1} />
+                                <ArrowDownwardIcon color="primary" size={1} />
+                                <ArrowDownwardIcon color="primary" size={1} />
+                            </div>
+                        </div>
+                    </div>  
+                </a>  
             </div>
         );
     }

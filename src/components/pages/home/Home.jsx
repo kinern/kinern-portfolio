@@ -1,10 +1,6 @@
 import React from 'react';
 
-import Landing from './Landing';
-import AboutSmall from './AboutSmall';
-import ProjectsHome from './ProjectsHome';
-import SocialMediaBar from './SocialMediaBar';
-import FlatContact from './FlatContact';
+import {Landing, AboutSmall, ProjectsHome, SocialMediaBar, FlatContact} from './index';
 
 const Home = () => {
     return(

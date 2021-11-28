@@ -36,7 +36,7 @@ body {
 
 .top-colorline {
     background: rgb(255, 212, 133);
-    height: 2px;
+    height: 3px;
     width: 100%;
 }
 
@@ -633,6 +633,9 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
     margin: 0 30px 0 30px;
     padding: 10vh 0 10vh 0;
     background: white;
+    input {
+        width: 100%;
+    }
     h3, .submit-button {
         font-family: $header-font;
     }
@@ -656,17 +659,10 @@ $square-active-grad : linear-gradient(to left, rgba(50,50,50,0.9), rgba(50,50,50
             color: #495057;
         }
     }
-    .form-control {
-        padding: 24px;
-        transition: border 0.3s;
-    }
     @media only screen and (max-width:600px){
            .col-sm-6 {
                margin-top: 18px;
            } 
-    }
-    .form-control:hover {
-        border: 1px solid $light-blue;
     }
 }
 
