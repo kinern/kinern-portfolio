@@ -1,30 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c05950c3.chunk.css",
-    "main.js": "/static/js/main.2be6b91a.chunk.js",
-    "main.js.map": "/static/js/main.2be6b91a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.98865184.js",
-    "runtime-main.js.map": "/static/js/runtime-main.98865184.js.map",
-    "static/css/2.1aecad9b.chunk.css": "/static/css/2.1aecad9b.chunk.css",
-    "static/js/2.aa537c6e.chunk.js": "/static/js/2.aa537c6e.chunk.js",
-    "static/js/2.aa537c6e.chunk.js.map": "/static/js/2.aa537c6e.chunk.js.map",
+    "main.js": "/static/js/main.b826a2a9.js",
+    "static/media/portfolio-portrait.svg": "/static/media/portfolio-portrait.7991d590e1b25825ff2f72d6c358d038.svg",
     "index.html": "/index.html",
-    "static/css/2.1aecad9b.chunk.css.map": "/static/css/2.1aecad9b.chunk.css.map",
-    "static/css/main.c05950c3.chunk.css.map": "/static/css/main.c05950c3.chunk.css.map",
-    "static/js/2.aa537c6e.chunk.js.LICENSE.txt": "/static/js/2.aa537c6e.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/static/media/sergey-zolkin-_UeY8aTI6d0-unsplash.3603e755.jpg",
-    "static/media/calendar_screen.7d9f73ad.png": "/static/media/calendar_screen.7d9f73ad.png",
-    "static/media/goals_screen.14c812cf.png": "/static/media/goals_screen.14c812cf.png",
-    "static/media/graph_screen.2641fa07.png": "/static/media/graph_screen.2641fa07.png",
-    "static/media/options_screen.187cf49e.png": "/static/media/options_screen.187cf49e.png",
-    "static/media/portfolio-portrait.35090921.svg": "/static/media/portfolio-portrait.35090921.svg",
-    "static/media/timer_screen.02c3ecab.png": "/static/media/timer_screen.02c3ecab.png"
+    "main.b826a2a9.js.map": "/static/js/main.b826a2a9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.98865184.js",
-    "static/css/2.1aecad9b.chunk.css",
-    "static/js/2.aa537c6e.chunk.js",
-    "static/css/main.c05950c3.chunk.css",
-    "static/js/main.2be6b91a.chunk.js"
+    "static/js/main.b826a2a9.js"
   ]
 }
