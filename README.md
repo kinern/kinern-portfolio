@@ -8,8 +8,8 @@ Website: [https://kinern.github.io/kinern-portfolio](https://kinern.github.io/ki
 ### Previous Layouts
 
 #### Version 1
-<img align="left" src="./screenshots/portfolio-1-about-page.png" width="480px" alt="About Page" />
-<img src="./screenshots/portfolio-1-contact-page.png" width="480px" alt="Contact Page" />  
+<img align="left" src="./screenshots/portfolio-1-about-page.png" width="300px" alt="About Page" />
+<img src="./screenshots/portfolio-1-contact-page.png" width="300px" alt="Contact Page" />  
   
 
   
