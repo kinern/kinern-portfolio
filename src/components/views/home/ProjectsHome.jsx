@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from '../../Projects';
-import {Container, Typography} from '@mui/material';
+import {Container, Box, Typography} from '@mui/material';
 
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
@@ -28,8 +28,12 @@ const theme = createTheme({
 const ProjectsHome = () => {
     return(
         <ThemeProvider theme={theme}>
-            <Container maxWidth={'md'}>
-                <Typography variant="titleText">Case Studies</Typography>
+            <Box sx={{width:'100%', background:'#0F7173'}}>
+                <Box sx={{padding:'30px 0', margin:'auto', color:'white'}}>
+                    <Typography variant="titleText" color="white">Case Studies</Typography>
+                </Box>
+            </Box>
+            <Container maxWidth={'md'} sx={{margin:'20vh auto'}}>
                 <Projects />
             </Container>
         </ThemeProvider>

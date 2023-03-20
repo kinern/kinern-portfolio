@@ -8,6 +8,7 @@ import Contact from './views/contact/Contact';
 import JTrack from './projects/JTrack';
 import Portfolio from './projects/Portfolio';
 import PSPProjects from './projects/PSPProjects';
+import HearingRoom from './projects/HearingRoom';
 
 const Router = () => {
 
@@ -21,6 +22,7 @@ const Router = () => {
             <Route path="/jtrack" element={<JTrack />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/pspprojects" element={<PSPProjects />} />
+            <Route path="/hearingroom" element={<HearingRoom />} />
         </Routes>
     );
 };

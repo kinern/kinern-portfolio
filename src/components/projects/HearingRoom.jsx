@@ -2,6 +2,7 @@ import React from 'react';
 import {
     Container,
     Typography,
+    Link,
 } from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
@@ -40,26 +41,17 @@ const theme = createTheme({
     }
 });
 
-const JTrack = () => {
+const HearingRoom = () => {
 
     return(
         <ThemeProvider theme={theme}>
-            <Container maxWidth={'md'} style={{minHeight: '80vh', marginTop: 80, marginBottom: 80}}>
-                <Typography variant="title">JTrack</Typography>
-                <Typography variant="yearText">Year 2020</Typography>
+            <Container maxWidth={'md'} style={{ marginTop: 80, marginBottom: 80}}>
+                <Typography variant="title">Hearing Room</Typography>
+                <Typography variant="yearText">Year 2021</Typography>
                 <div className="content">
                     <Typography variant="description">
-                        <strong>JTrack</strong> is a mobile application for tracking daily workout routines.
-                        It includes a monthly calendar with the ability to add in minutes of exercise.
-                        There is a statistics page for visually showing the progress being made.
-                        Originally, it was created as a way to manage daily jump rope routines, 
-                        hence the "J" in the name.
-                        <ul style={{listStyleType: 'circle', marginTop: 30}}>
-                            <li>Implements Jerry Seinfeld's "Don't Break The Chain" method</li> 
-                            <li>Displays local weather using OpenWeatherMap API</li>
-                            <li>Generates graph of recorded exercises on Statistics screen</li>
-                            <li>Bright layout with colorful icons</li>
-                        </ul>
+                        More information coming soon! <br />
+                        (You can read about it on my <Link target="_blank" href="https://linkedin.com/in/natalie-kiner" rel="noopener noreferrer">linkedin</Link> profile)
                     </Typography>
                 </div>
             </Container>
@@ -67,4 +59,4 @@ const JTrack = () => {
     );
 }
 
-export default JTrack;
+export default HearingRoom;

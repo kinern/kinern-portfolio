@@ -1,12 +1,9 @@
 import React from 'react';
 import {
     Container,
-    Grid,
     Typography,
-    Link,
 } from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
-import {styled} from '@mui/system';
 
 const theme = createTheme({
     components: {
@@ -99,7 +96,7 @@ const PSPProjects = () => {
                         One of the highlights of Bloguru is the user video management tool, located within the member interface.
                         For this feature, I designed and implemented a backend system for formatting, storing, and retrieving video data and information. 
                         This was one of the larger projects that I was the main developer for. Along with the main storage system, there was a number of extra parts that went into building this feature. 
-                        These include: Automated thumbnail generation for uploaded videos, hotlinking preventon, integration with Twitter and Facebook APIs for blog posting.
+                        These include: Automated thumbnail generation for uploaded videos, hotlinking prevention, integration with Twitter and Facebook APIs for blog posting.
                     </Typography>
                     <Typography variant="subtitleText">Notifications, Emails and Social Media</Typography>
                     <Typography variant="descriptionText">
@@ -111,7 +108,7 @@ const PSPProjects = () => {
                         Users of Bloguru have a vast variety of colorful and novel themes to pick from. 
                         There is also the option of building one's own custom theme to create a unique design.
                         One of the projects our team had was to modernize the custom theme generator, including new areas that could be colored, dropdown menus, and new header image placement. 
-                        I worked closeley with a front end design and developer to update this tool.
+                        I worked closely with a front end design and developer to update this tool.
                         My work included handling saved theme data as well as refactoring the theme generator interface functionality.
                     </Typography>
                     <Typography variant="footerText"> 

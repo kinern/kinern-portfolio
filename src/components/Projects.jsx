@@ -95,6 +95,14 @@ const leftColSquaresData = [
         Mobile application to track workout sessions each month. 
         A personal project created using Expo, React Native, and SQLite. 
         `
+    },
+    {
+        class:"hearing-room",
+        title:"Hearing Room",
+        description: "Hackathon Project the Explores the Capabilities of Machine Learning",
+        link: "/hearingroom",
+        longDescription: "Hackathon project utilizing the Symbl.ai service and machine learning to build collections of topics from videos of public speakers."
+
     }
 ];
 

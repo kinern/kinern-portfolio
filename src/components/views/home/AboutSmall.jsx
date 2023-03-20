@@ -3,6 +3,7 @@ import React from 'react';
 import portraitImage from '../../../images/portfolio-portrait.svg';
 import {Container, Grid, Typography} from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
+import Timeline from '../../timeline/Timeline';
 
 const theme = createTheme({
     components: {
@@ -39,7 +40,7 @@ const AboutSmall = () => {
                             I enjoy working with the latest technologies and have a number of personal projects.
                             <br />
                             <br />
-                            Outside the tech world, I am passionate about art. I create lineart or watercolor illustrations. A glimpse of my art can be seen on <a href="https://instagram.com/natalie_art7">Instagram</a>.
+                            Outside the tech world, I am passionate about art. I create line-art and watercolor illustrations. A glimpse of my art can be seen on <a style={{color: '#B89E97'}}href="https://instagram.com/natalie_art7">Instagram</a>.
                         </Typography>
                     </Grid>
                 </Grid>

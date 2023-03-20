@@ -55,7 +55,7 @@ const FlatContact = () => {
 
         return ( 
             <ThemeProvider theme={theme}>
-                <Container maxWidth={'md'} style={{minHeight: '100vh', marginTop: 50, marginBottom: 50}}>
+                <Container maxWidth={'md'} style={{minHeight: '100vh', marginTop: "20vh", marginBottom: "20vh"}}>
                     <Typography variant="titleText">Send A Message</Typography>
                     <Typography variant="contactDescriptionText">
                         If you have inquiries or would like to know more about my work, 

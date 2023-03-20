@@ -85,7 +85,16 @@ const Landing = (props) => {
 
         return (  
             <ThemeProvider theme={theme}>
-            <Container maxWidth={false} style={{minHeight: '100vh', display: 'flex', alignItems: 'center'}} id="top">
+            <Container maxWidth={false} style={{
+                background: `
+                linear-gradient(217deg, rgba(184, 158, 151,.8), rgba(184, 158, 151,0) 50%), 
+                linear-gradient(336deg, rgba(255, 255, 255,.8), rgba(255, 255, 255,0) 75%), 
+                linear-gradient(127deg, rgba(15, 113, 115,.8), rgba(15, 113, 115,0) 50%)
+                `,
+                minHeight: '100vh', 
+                display: 'flex', 
+                alignItems: 'center'
+                }} id="top">
                     <Grid container justifyContent="center" alignItems="center" style={{minHeight: '100vh'}}>
                         <Grid item xs={12} alignSelf="center" justifySelf="center">
                             <Typography variant="titleText">Natalie Kiner</Typography>

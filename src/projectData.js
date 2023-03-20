@@ -38,7 +38,7 @@ const projectData = [
 
     },
     {
-        title: 'React Porfolio',
+        title: 'React Portfolio',
         headline: 'Single-Scroll Portfolio with Colorful Design',
         description: 
         <div>

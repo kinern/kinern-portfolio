@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SocialLinks from '../../SocialLinks';
-import {Container, Grid, Typography} from '@mui/material';
+import SocialLinks from '../../sociallinks';
+import {Box, Container, Grid, Typography} from '@mui/material';
 
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
@@ -12,7 +12,7 @@ const theme = createTheme({
                 {
                     props: {variant: 'titleText'},
                     style : {
-                        color: '#555',
+                        color: '#fff',
                         fontSize: '3em',
                         textAlign: 'center',
                         display:'block',
@@ -21,7 +21,7 @@ const theme = createTheme({
                 {
                     props: {variant: 'subtitleText'},
                     style : {
-                        color: '#555',
+                        color: '#fff',
                         fontSize: '1.8em',
                         textAlign: 'center',
                         display:'block'
@@ -35,6 +35,7 @@ const theme = createTheme({
 const SocialMediaBar = () => {
     return(
         <ThemeProvider theme={theme}>
+            <Box style={{width:'100%', backgroundColor: '#B89E97'}}>
             <Container maxWidth={'md'} style={{minHeight: '80vh', display: 'flex', alignItems: 'center'}}>
                 <Grid container>
                         <Grid item xs={12}>
@@ -46,6 +47,7 @@ const SocialMediaBar = () => {
                         </Grid>
                 </Grid>
             </Container>
+            </Box>
         </ThemeProvider>
     );
 }
