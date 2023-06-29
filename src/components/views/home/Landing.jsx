@@ -1,16 +1,14 @@
 import React from 'react';
 
-import { mdiArrowDown } from '@mdi/js';
-import Icon from '@mdi/react';
-
 import {
     Container,
     Grid,
     Typography,
-    Link,
 } from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {styled} from '@mui/system';
+
+import backgroundImg from '../../../images/seattle-scott-horn-unsplash-2.jpg';
 
 
 const theme = createTheme({
@@ -86,19 +84,20 @@ const Landing = (props) => {
         return (  
             <ThemeProvider theme={theme}>
             <Container maxWidth={false} style={{
-                background: `
-                linear-gradient(217deg, rgba(184, 158, 151,.8), rgba(184, 158, 151,0) 50%), 
-                linear-gradient(336deg, rgba(255, 255, 255,.8), rgba(255, 255, 255,0) 75%), 
-                linear-gradient(127deg, rgba(15, 113, 115,.8), rgba(15, 113, 115,0) 50%)
-                `,
+                backgroundImage: `url(${backgroundImg})`,
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
                 minHeight: '100vh', 
                 display: 'flex', 
                 alignItems: 'center'
                 }} id="top">
                     <Grid container justifyContent="center" alignItems="center" style={{minHeight: '100vh'}}>
                         <Grid item xs={12} alignSelf="center" justifySelf="center">
-                            <Typography variant="titleText">Natalie Kiner</Typography>
-                            <Typography variant="subtitleText">Software Engineer & Illustrator</Typography>
+                            <Div style={{backgroundColor:'rgba(255,255,255,0.25)', margin:'0', padding:'10px'}}>
+                                <Typography sx={{fontSize:{xs: "1.4em", md: "1.8em", lg: "2em"}}} variant="titleText">Natalie Kiner</Typography>
+                                <Typography sx={{fontSize:{xs: "1em", md: "1.4em", lg: "1.8em"}}} variant="subtitleText">Software Engineer & Illustrator</Typography>
+                            </Div>
                         </Grid>
                     </Grid>      
             </Container>

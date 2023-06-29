@@ -3,7 +3,7 @@ import React from 'react';
 import portraitImage from '../../../images/portfolio-portrait.svg';
 import {Container, Grid, Typography} from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
-import Timeline from '../../timeline/Timeline';
+import {styled} from '@mui/system';
 
 const theme = createTheme({
     components: {
@@ -21,15 +21,22 @@ const theme = createTheme({
 });
 
 
+const Div = styled("div", {
+    name: "MuiDiv",
+    overridesResolver: (props, styles) => {
+        return [styles.root];
+    }
+})();
+
 const AboutSmall = () => {
     return(
         <ThemeProvider theme={theme}>
-            <Container maxWidth={'md'} style={{height: '80vh', display: 'flex', alignItems: 'center'}} id="about">
+            <Container maxWidth={'md'} style={{minHeight: '80vh', display: 'flex', alignItems: 'center', padding:'5vh 12px'}} id="about">
                 <Grid container spacing={4}>
                     <Grid item xs={12} sm={4}>
-                        <div>
-                            <object data={portraitImage} height="100%"></object>
-                        </div>
+                        <Div sx={{width:{xs:'50%', md:'80%'}, margin:'auto'}}>
+                            <object data={portraitImage} aria-label="portfolio-image" height="100%"></object>
+                        </Div>
                     </Grid>
                     <Grid item xs={12} sm={8}>
                         <Typography variant="aboutText">
