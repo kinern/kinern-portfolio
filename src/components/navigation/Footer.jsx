@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {NavLink, Link as RouterLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import {
     Container,
     Grid,
