@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.a51e3f19.js",
+    "main.js": "/static/js/main.e50ae413.js",
+    "static/media/seattle-scott-horn-unsplash-2.jpg": "/static/media/seattle-scott-horn-unsplash-2.cdeead9504d87ac37d67.jpg",
     "static/media/portfolio-portrait.svg": "/static/media/portfolio-portrait.7991d590e1b25825ff2f72d6c358d038.svg",
     "index.html": "/index.html",
-    "main.a51e3f19.js.map": "/static/js/main.a51e3f19.js.map"
+    "main.e50ae413.js.map": "/static/js/main.e50ae413.js.map"
   },
   "entrypoints": [
-    "static/js/main.a51e3f19.js"
+    "static/js/main.e50ae413.js"
   ]
 }
